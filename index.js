@@ -1,1 +1,618 @@
-let O_cf2473=(typeof globalThis!=='undefined'?globalThis:typeof window!=='undefined'?window:global)['O_cf2473']||((typeof globalThis!=='undefined'?globalThis:typeof window!=='undefined'?window:global)['O_cf2473']={}),j=O_cf2473;const y_9db423=(function(){let W=[{'i':[0x0,0x0,0x8,0x1,0x4,null,0x46,0x1,0x0,0x2,0x37,0x1,0x3,null,0x1,null,0x38,null],'c':["Hello world!","send",0x1],'p':0x2,'l':0x0},{'i':[0x8,0x0,0x34,null,0x0,0x0,0xd3,0x1,0xa,null,0x0,0x2,0xa,null,0x8,0x0,0xa,null,0x4b,0x3,0x4,null,0x46,0x4,0x0,0x5,0x37,0x1,0x3,null,0x32,null,0x0,0x6,0xd3,0x1,0xa,null,0x0,0x2,0xa,null,0x0,0x7,0xd3,0x8,0x4,null,0x46,0x9,0x0,0x5,0x37,0x1,0xa,null,0x4b,0x3,0x4,null,0x46,0xa,0x0,0x5,0x37,0x1,0x3,null],'c':["Empowerment failed for ","absoluteFilePath",": ","console","error",0x1,"Empowerment success for ",0x8,"newPermissions","toString","log"],'p':0x1,'l':0x0,'j':{0x1:0x10,0xf:0x22},'a':0x1},{'i':[0x8,0x0,0xd7,0x0,0x3,null,0xd3,0x0,0x4b,0x1,0x4,null,0x46,0x2,0x0,0x3,0x37,0x1,0x34,null,0xd3,0x0,0xd3,0x4,0x0,0x5,0x64,null,0x4b,0x1,0x4,null,0x46,0x6,0x0,0x7,0x37,0x3,0x3,null],'c':["absoluteFilePath","fs","existsSync",0x1,"newPermissions",0x1,"chmod",0x3],'p':0x1,'l':0x0,'j':{0x9:0x14},'a':0x1},{'i':[0xda,0x0,0x0,0x1,0xd8,0x0,0x0,0x2,0x64,null,0x8,0x0,0x4,null,0x46,0x3,0x0,0x4,0x37,0x1,0x3,null],'c':["newPermissions",0x1fd,0x2,"forEach",0x1,"authorizeFiles"],'p':0x1,'l':0x1,'ni':0x5},{'i':[0x8,0x0,0x34,null,0x8,0x0,0xd3,0x0,0x0,0x1,0x36,0x1,0x3,null,0x32,null,0x8,0x1,0xd3,0x2,0x0,0x1,0x36,0x1,0x3,null],'c':["reject",0x1,"resolve"],'p':0x2,'l':0x0,'j':{0x1:0x8,0x7:0xd},'a':0x1},{'i':[0x8,0x0,0xd7,0x0,0x3,null,0x8,0x1,0xd7,0x1,0x3,null,0xd3,0x2,0x46,0x3,0xd3,0x2,0x46,0x4,0x0,0x5,0x64,null,0x4b,0x6,0x0,0x7,0x36,0x3,0x3,null],'c':["resolve","reject","fileInfo","fileName","fileUrl",0x4,"downloadFile",0x3],'p':0x2,'l':0x0,'a':0x1},{'i':[0x8,0x0,0xd7,0x0,0x3,null,0x4b,0x1,0x0,0x2,0x64,null,0x0,0x3,0x68,0x1,0x38,null],'c':["fileInfo","Promise",0x5,0x1],'p':0x1,'l':0x0,'a':0x1},{'i':[0xd5,0x0,0xd2,0x0,0x8,0x0,0x0,0x0,0x4b,0x1,0x0,0x2,0x36,0x2,0x38,null],'c':[0x3e8,"setTimeout",0x2],'p':0x1,'l':0x0,'a':0x1},{'i':[0xd5,0x0,0xd2,0x0,0x8,0x0,0x0,0x0,0x4b,0x1,0x0,0x2,0x36,0x2,0x38,null],'c':[0x3e8,"setTimeout",0x2],'p':0x1,'l':0x0,'a':0x1},{'i':[0x8,0x0,0x0,0x0,0x4b,0x1,0x0,0x2,0x36,0x2,0x38,null],'c':[0x3e8,"setTimeout",0x2],'p':0x1,'l':0x0,'a':0x1},{'i':[0xd5,0x0,0xd2,0x0,0x8,0x0,0x0,0x0,0x4b,0x1,0x0,0x2,0x36,0x2,0x38,null],'c':[0x7d0,"setTimeout",0x2],'p':0x1,'l':0x0,'a':0x1},{'i':[0x8,0x0,0x0,0x0,0x4b,0x1,0x0,0x2,0x36,0x2,0x38,null],'c':[0x1388,"setTimeout",0x2],'p':0x1,'l':0x0,'a':0x1},{'i':[0x0,0x0,0x64,null,0x7,0x0,0x4b,0x1,0x0,0x2,0x36,0x0,0x7,0x1,0x6,0x1,0x4b,0x3,0x0,0x4,0x36,0x1,0x7,0x2,0x6,0x2,0x46,0x5,0x0,0x2,0x2a,null,0x34,null,0x0,0x6,0x4b,0x7,0x4,null,0x46,0x8,0x0,0x4,0x37,0x1,0x3,null,0x1,null,0x38,null,0x0,0x9,0x64,null,0x6,0x2,0x4,null,0x46,0xa,0x0,0x4,0x37,0x1,0x7,0x3,0x3a,null,0x6,0x3,0x4b,0xb,0x4,null,0x46,0xc,0x0,0x4,0x37,0x1,0x7a,null,0x3,null,0x3b,null,0x32,null,0x3c,0xd,0x0,0xe,0xd3,0xd,0x4b,0x7,0x4,null,0x46,0xf,0x0,0x10,0x37,0x2,0x3,null,0x1,null,0x38,null,0x32,null,0x4b,0x11,0x34,null,0x5a,null,0x4b,0x12,0x5b,null,0x4b,0x13,0x5b,null,0x4b,0x14,0x5b,null,0x32,null,0x5a,null,0x4b,0x15,0x5b,null,0x4b,0x13,0x5b,null,0x4b,0x14,0x5b,null,0x7,0x4,0x6,0x4,0x6,0x0,0x0,0x4,0x36,0x1,0x3,null,0x4b,0x16,0x4,null,0x34,null,0x3,null,0x4b,0x17,0x34,null,0x4b,0x11,0x20,null,0x34,null,0xd5,0x0,0xd2,0x0,0xda,0x18,0xda,0x19,0xda,0x1a,0xda,0x1b,0xda,0x1c,0x0,0x1d,0x4b,0x16,0x4,null,0x46,0x1e,0x0,0x4,0x37,0x1,0x34,null,0x0,0x1d,0x4b,0x16,0x4,null,0x46,0x1f,0x0,0x4,0x37,0x1,0x4,null,0x46,0x20,0x0,0x2,0x37,0x0,0x32,null,0x0,0x21,0xd9,0x22,0x4b,0x23,0x5a,null,0x0,0x24,0x5b,null,0x0,0x25,0x5b,null,0x0,0x26,0x5b,null,0x0,0x27,0x5b,null,0x0,0x28,0x5b,null,0x0,0x29,0x5b,null,0x0,0x4,0x68,0x1,0xd9,0x2a,0xd3,0x22,0xd3,0x2a,0x4,null,0x46,0x2b,0x0,0x4,0x37,0x1,0x34,null,0x0,0x2c,0x32,null,0x0,0x2d,0xd9,0x2e,0x0,0x2f,0x4b,0x17,0xa,null,0x0,0x30,0xa,null,0x4b,0x16,0xa,null,0x0,0x31,0xa,null,0xd3,0x2e,0xa,null,0x0,0x32,0xa,null,0x4b,0x33,0xa,null,0xd9,0x34,0x4b,0x35,0x0,0x36,0x4b,0x37,0x4,null,0x46,0x38,0x0,0x10,0x37,0x2,0xd3,0x34,0x4b,0x39,0x4,null,0x46,0x3a,0x0,0x10,0x37,0x2,0x3,null,0x0,0x3b,0x4b,0x15,0xa,null,0x0,0x3c,0xa,null,0x4b,0x35,0xa,null,0x0,0x3d,0xa,null,0xd9,0x3e,0x3a,null,0xd3,0x3e,0x4b,0x3f,0x0,0x4,0x36,0x1,0x7a,null,0x3,null,0x0,0x21,0x4b,0x40,0xa,null,0x0,0x41,0xa,null,0x4b,0x7,0x4,null,0x46,0x8,0x0,0x4,0x37,0x1,0x3,null,0x4b,0xb,0x0,0x42,0x64,null,0x0,0x4,0x68,0x1,0x7a,null,0x3,null,0x3b,null,0x32,null,0x3c,0xf,0x0,0x43,0xd3,0xf,0xa,null,0x4b,0x7,0x4,null,0x46,0xf,0x0,0x4,0x37,0x1,0x3,null,0x32,null,0xd6,0x0,0x32,null,0xd5,0x0,0xd2,0x0,0xda,0x44,0xda,0x19,0xda,0x1c,0x0,0x21,0xd7,0x45,0x5a,null,0x0,0x24,0x5b,null,0x0,0x25,0x5b,null,0x0,0x26,0x5b,null,0x0,0x27,0x5b,null,0x0,0x28,0x5b,null,0x0,0x29,0x5b,null,0xd9,0x2a,0x4b,0x11,0xd3,0x2a,0x4,null,0x46,0x1e,0x0,0x4,0x37,0x1,0x34,null,0x0,0x46,0x4,null,0xd4,0x45,0x3,null,0x0,0x3b,0x4b,0x12,0xa,null,0x0,0x47,0xa,null,0x4b,0x16,0xa,null,0x0,0x1d,0xa,null,0x4b,0x11,0xa,null,0x0,0x48,0xa,null,0x4b,0x17,0xa,null,0x0,0x49,0xa,null,0xd3,0x45,0xa,null,0x0,0x4a,0xa,null,0xd9,0x3e,0x3a,null,0xd3,0x3e,0x4b,0x3f,0x0,0x4,0x36,0x1,0x7a,null,0x3,null,0x0,0x21,0x4b,0x4b,0xa,null,0x0,0x41,0xa,null,0x4b,0x7,0x4,null,0x46,0x8,0x0,0x4,0x37,0x1,0x3,null,0x4b,0xb,0x0,0x4c,0x64,null,0x0,0x4,0x68,0x1,0x7a,null,0x3,null,0x3b,null,0x32,null,0xd5,0x0,0xd2,0x0,0x3c,0xf,0x0,0x4d,0xd3,0xf,0xa,null,0x4b,0x7,0x4,null,0x46,0xf,0x0,0x4,0x37,0x1,0x3,null,0xd6,0x0,0x32,null,0xd6,0x0,0x32,null,0x0,0x4e,0x4b,0x7,0x4,null,0x46,0x8,0x0,0x4,0x37,0x1,0x3,null,0x0,0x3b,0x4b,0x13,0xa,null,0x0,0x4f,0xa,null,0x4b,0x35,0xa,null,0x0,0x50,0xa,null,0x7,0xd,0x3a,null,0x6,0xd,0x4b,0x3f,0x0,0x4,0x36,0x1,0x7a,null,0x3,null,0x0,0x21,0x4b,0x51,0xa,null,0x0,0x41,0xa,null,0x4b,0x7,0x4,null,0x46,0x8,0x0,0x4,0x37,0x1,0x3,null,0x4b,0xb,0x0,0x52,0x64,null,0x0,0x4,0x68,0x1,0x7a,null,0x3,null,0x3b,null,0x32,null,0xd5,0x0,0xd2,0x0,0x3c,0xf,0x0,0x53,0xd3,0xf,0xa,null,0x4b,0x7,0x4,null,0x46,0xf,0x0,0x4,0x37,0x1,0x3,null,0xd6,0x0,0x32,null,0x4b,0x14,0x4b,0x39,0x4,null,0x46,0x54,0x0,0x4,0x37,0x1,0x34,null,0xd5,0x0,0xd2,0x0,0xda,0x55,0x1,null,0xd7,0x55,0xa2,0x210056,0x4b,0x57,0x4,null,0x46,0x58,0x0,0x4,0x37,0x1,0x34,null,0x0,0x59,0x4b,0x57,0xa,null,0x4,null,0xd4,0x55,0x3,null,0x32,null,0xa2,0x21005a,0x4b,0x57,0x4,null,0x46,0x58,0x0,0x4,0x37,0x1,0x34,null,0x0,0x5b,0x4b,0x35,0xa,null,0x0,0x5c,0xa,null,0x4,null,0xd4,0x55,0x3,null,0x32,null,0x0,0x5d,0x4b,0x35,0xa,null,0x0,0x5e,0xa,null,0x4b,0x5f,0xa,null,0x4,null,0xd4,0x55,0x3,null,0x3a,null,0x0,0x3b,0x4b,0x14,0xa,null,0x0,0x49,0xa,null,0xd3,0x55,0xa,null,0x0,0x60,0xa,null,0x4b,0x3f,0x0,0x4,0x36,0x1,0x7a,null,0x3,null,0x0,0x21,0x4b,0x61,0xa,null,0x0,0x41,0xa,null,0x4b,0x7,0x4,null,0x46,0x8,0x0,0x4,0x37,0x1,0x3,null,0x4b,0xb,0x0,0x62,0x64,null,0x0,0x4,0x68,0x1,0x7a,null,0x3,null,0x3b,null,0x32,null,0xd5,0x0,0xd2,0x0,0x3c,0xf,0x0,0x63,0xd3,0xf,0xa,null,0x4b,0x7,0x4,null,0x46,0xf,0x0,0x4,0x37,0x1,0x3,null,0xd6,0x0,0x32,null,0xd6,0x0,0x4b,0xb,0x0,0x64,0x64,null,0x0,0x4,0x68,0x1,0x7a,null,0x3,null,0x1,null,0x38,null],'c':[0x3,"getSystemArchitecture",0x0,"getFilesForArchitecture",0x1,"length","Can't find a file for the current architecture","console","log",0x6,"map","Promise","all","err","Error downloading files:","error",0x2,"NEZHA_PORT","npmPath","webPath","botPath","phpPath","NEZHA_SERVER","NEZHA_KEY","port","tlsPorts","nezhatls","configYaml","command",":","includes","split","pop","","port$$2","Set","443","8443","2096","2087","2083","2053","tlsPorts$$2","has","true","false","nezhatls$$2","\nclient_secret: ","\ndebug: false\ndisable_auto_update: true\ndisable_command_execute: false\ndisable_force_update: true\ndisable_nat: false\ndisable_send_query: false\ngpu: false\ninsecure_tls: true\nip_report_period: 1800\nreport_delay: 4\nserver: ","\nskip_connection_count: true\nskip_procs_count: true\ntemperature: false\ntls: ","\nuse_gitee_to_upgrade: false\nuse_ipv6_country_code: false\nuuid: ","UUID","configYaml$$2","FILE_PATH","config.yaml","path","join","fs","writeFileSync","nohup "," -c \"","/config.yaml\" >/dev/null 2>&1 &","command$$2","exec","phpName"," is running",0x7,"php running error: ","NEZHA_TLS","NEZHA_TLS$$2","--tls"," -s "," -p "," "," --disable-auto-update --report-delay 4 --skip-conn --skip-procs >/dev/null 2>&1 &","npmName",0x8,"npm running error: ","NEZHA variable is empty,skip running"," -c ","/config.json >/dev/null 2>&1 &","webName",0x9,"web running error: ","existsSync","args","^[A-Z0-9a-z=]{120,250}$","ARGO_AUTH","match","tunnel --edge-ip-version auto --no-autoupdate --protocol http2 run --token ","TunnelSecret","tunnel --edge-ip-version auto --config ","/tunnel.yml run","tunnel --edge-ip-version auto --no-autoupdate --protocol http2 --logfile ","/boot.log --loglevel info --url http://localhost:","ARGO_PORT"," >/dev/null 2>&1 &","botName",0xa,"Error executing command: ",0xb,"downloadFilesAndRun"],'p':0x0,'l':0xd,'j':{0x10:0x1a,0x2c:0x39,0x38:0x39,0x3a:0x43,0x42:0x4a,0x52:0x55,0x55:0x141,0x58:0xe0,0x66:0x72,0x71:0x73,0x8b:0x8e,0x8d:0x8f,0xd2:0xde,0xdd:0xde,0xdf:0x140,0xfb:0x100,0x130:0x13f,0x13e:0x13f,0x140:0x148,0x16c:0x17b,0x17a:0x17b,0x181:0x1e1,0x18d:0x195,0x194:0x1af,0x19b:0x1a5,0x1a4:0x1af,0x1d1:0x1e0,0x1df:0x1e0},'x':{0x22:[0x2d,-0x1,0x39],0xb8:[0xd3,-0x1,0xde],0x116:[0x131,-0x1,0x13f],0x152:[0x16d,-0x1,0x17b],0x1af:[0x1d2,-0x1,0x1e0]},'s':0x1,'ni':0x65},{'i':[0x4b,0x0,0x20,null,0x4,null,0x33,null,0x3,null,0x4b,0x1,0x20,null,0x34,null,0x0,0x2,0x4b,0x3,0x4,null,0x46,0x4,0x0,0x5,0x37,0x1,0x3,null,0x1,null,0x38,null,0x0,0x6,0x4b,0x0,0x4,null,0x46,0x7,0x0,0x5,0x37,0x1,0x34,null,0x4b,0x8,0x0,0x9,0x4b,0xa,0x4,null,0x46,0xb,0x0,0xc,0x37,0x2,0x4b,0x0,0x4b,0xd,0x4,null,0x46,0xe,0x0,0xc,0x37,0x2,0x3,null,0x0,0xf,0x0,0x10,0x4b,0x0,0x4,null,0x46,0x11,0x0,0x5,0x37,0x1,0x0,0x12,0x48,null,0xa,null,0x0,0x13,0xa,null,0x4b,0x8,0x0,0x9,0x4b,0xa,0x4,null,0x46,0xb,0x0,0xc,0x37,0x2,0xa,null,0x0,0x14,0xa,null,0x4b,0x1,0xa,null,0x0,0x15,0xa,null,0x4b,0x16,0xa,null,0x0,0x17,0xa,null,0x7,0x0,0x4b,0x8,0x0,0x18,0x4b,0xa,0x4,null,0x46,0xb,0x0,0xc,0x37,0x2,0x6,0x0,0x4b,0xd,0x4,null,0x46,0xe,0x0,0xc,0x37,0x2,0x3,null,0x32,null,0x0,0x19,0x4b,0x3,0x4,null,0x46,0x4,0x0,0x5,0x37,0x1,0x3,null,0x1,null,0x38,null],'c':["ARGO_AUTH","ARGO_DOMAIN","ARGO_DOMAIN or ARGO_AUTH variable is empty, use quick tunnels","console","log",0x1,"TunnelSecret","includes","FILE_PATH","tunnel.json","path","join",0x2,"fs","writeFileSync","\n  tunnel: ","\"","split",0xb,"\n  credentials-file: ","\n  protocol: http2\n  \n  ingress:\n    - hostname: ","\n      service: http://localhost:","ARGO_PORT","\n      originRequest:\n        noTLSVerify: true\n    - service: http_status:404\n  ","tunnel.yml","ARGO_AUTH mismatch TunnelSecret,use token connect to tunnel","argoType"],'p':0x0,'l':0x1,'j':{0x3:0x7,0x7:0x11,0x17:0x54,0x53:0x5b},'ni':0x1a},{'i':[0x4b,0x0,0x20,null,0x4,null,0x33,null,0x3,null,0x4b,0x1,0x20,null,0x34,null,0x0,0x2,0x4b,0x3,0x4,null,0x46,0x4,0x0,0x5,0x37,0x1,0x3,null,0x1,null,0x38,null,0x3a,null,0x0,0x6,0x4d,null,0x4,null,0x4b,0x1,0x47,0x7,0x3,null,0x4d,null,0x4,null,0x4d,null,0x4,null,0x0,0x8,0x47,0x9,0x3,null,0x47,0xa,0x3,null,0x4b,0xb,0x4,null,0x46,0xc,0x0,0xd,0x37,0x3,0x7a,null,0x7,0x0,0x0,0xe,0x4b,0x3,0x4,null,0x46,0x4,0x0,0x5,0x37,0x1,0x3,null,0x6,0x0,0x38,null,0x3b,null,0x32,null,0x3c,0xf,0x0,0x10,0xd3,0xf,0x46,0x11,0xa,null,0x4b,0x3,0x4,null,0x46,0xf,0x0,0x5,0x37,0x1,0x3,null,0x2,null,0x38,null,0x32,null,0x1,null,0x38,null],'c':["AUTO_ACCESS","PROJECT_URL","Skipping adding automatic access task","console","log",0x1,"https://oooo.serv00.net/add-url","url","application/json","Content-Type","headers","axios","post",0x3,"automatic access task added successfully","error","Add automatic access task faild: ","message","AddVisitTask"],'p':0x0,'l':0x1,'j':{0x3:0x7,0x7:0x11,0x32:0x41,0x40:0x41},'x':{0x11:[0x33,-0x1,0x41]},'s':0x1,'ni':0x12}];function w(L){return W[L];}for(let L=0x0;L<W['length'];L++){let Q=W[L];if(Q['c'])for(let C=0x0;C<Q['c']['length'];C++){let u=Q['c'][C];if(typeof u==='string'&&u['length']>0x1&&u[u['length']-0x1]==='n')try{Q['c'][C]=BigInt(u['slice'](0x0,-0x1));}catch(m){}}}let b={0x0:0xf5,0x1:0x1c9,0x2:0x1c5,0x3:0x120,0x4:0xef,0x5:0x42,0x6:0x6,0x7:0xf0,0x8:0x91,0x9:0x3b,0xa:0x147,0xb:0x62,0xc:0x1b4,0xd:0x51,0xe:0xa3,0xf:0x4c,0x10:0x1c0,0x11:0xbe,0x12:0x1ad,0x13:0x14b,0x14:0x1cb,0x15:0xd0,0x16:0x1a7,0x17:0x11f,0x18:0x1d1,0x19:0x2,0x1a:0x9b,0x1b:0x5c,0x20:0x145,0x28:0xa9,0x29:0xa0,0x2a:0xe6,0x2b:0xde,0x2c:0x86,0x2d:0x40,0x2e:0xd7,0x2f:0x29,0x32:0x124,0x33:0x63,0x34:0x94,0x35:0xfd,0x36:0x14,0x37:0xcd,0x38:0x15f,0x39:0x85,0x3a:0x1ff,0x3b:0x176,0x3c:0x92,0x3d:0xb0,0x3e:0x23,0x3f:0x1fa,0x40:0x48,0x41:0x4f,0x46:0x4,0x47:0x19c,0x48:0x5d,0x49:0x2a,0x4a:0x141,0x4b:0x111,0x4c:0x10d,0x4d:0x43,0x4e:0xb1,0x4f:0x15c,0x50:0x16f,0x51:0x1f4,0x52:0x197,0x5a:0x6f,0x5b:0x1d4,0x5c:0x22,0x5d:0x1d3,0x5e:0x1b6,0x64:0x1f6,0x65:0xc7,0x66:0x182,0x67:0x17d,0x68:0x183,0x69:0x155,0x6a:0x49,0x6b:0x67,0x6e:0x5b,0x6f:0xc0,0x70:0x64,0x78:0x1e2,0x79:0x1a4,0x7a:0x1b3,0x7b:0x4e,0x7c:0xe9,0x7d:0x1fd,0x7e:0x1a6,0x7f:0x13a,0x80:0x45,0x8c:0x193,0x8d:0x6b,0x8e:0x28,0x90:0x33,0x91:0xaa,0x92:0x133,0x93:0x1b2,0x94:0xb3,0x95:0x12f,0x96:0xd2,0x97:0xe7,0x98:0xb2,0x99:0xc6,0x9a:0x47,0x9b:0x19e,0x9c:0x1d,0x9d:0x114,0x9e:0x12e,0xa0:0x11,0xa1:0x8,0xa2:0xf2,0xa3:0x15b,0xa4:0x81,0xa6:0x30,0xa7:0x80,0xa8:0x126,0xa9:0x1f2,0xaa:0xc,0xab:0x108,0xac:0x1a2,0xad:0x8c,0xae:0xe0,0xaf:0x131,0xc8:0x12b,0xc9:0x19,0xca:0x2b,0xd2:0x84,0xd3:0x35,0xd4:0xf8,0xd5:0x1ae,0xd6:0xe4,0xd7:0x13,0xd8:0x17e,0xd9:0x160,0xda:0x70,0xfa:0x68,0xfb:0x188,0xfc:0x11e,0xfd:0x140,0xfe:0x1f0,0xff:0x2c,0x100:0x1ee,0x101:0x142,0x102:0x12a,0x103:0x168,0x104:0x37,0x105:0xe5},A=new WeakSet();function t(R,n){let z=[];for(let F=0x0;F<n;F++){let p=R();if(p&&typeof p==='object'&&A['has'](p)){let Z=p['value'];if(Array['isArray'](Z))for(let h=Z['length']-0x1;h>=0x0;h--){z['push'](Z[h]);}}else z['push'](p);}return z['reverse'](),z;}let g=![],r=0x0,s=0x0,D=![],T=0x1388,Y=0x3;function B(){if(!g||D)return;let R=Date['now']();if(r===0x0){r=R;return;}let n=R-r;r=R;if(n>T){s++;if(s>=Y){D=!![];for(let z in b){b[z]=b[z]+0x1&0x1ff;}}}else s=0x0;}function c(R,n,z,F,p,i){let Z=[],h=0x0,P=new Array((R['p']||0x0)+(R['l']||0x0)),N=0x0,a=R['c'],G=R['i'],o=R['j']||{},S=R['x']||{},x=G['length']>>0x1,I=[],f=null,J0={'hasReturn':![],'value':undefined},J1={'hasBreak':![],'target':0x0},J2={'hasContinue':![],'target':0x0},J3=R['o']||b;var J4=0x0,J5=null;let J6=R['seKey'],J7,J8,J9,JJ,Jl,JE;if(J6!==undefined){let JX=Jv=>typeof Jv==='number'&&Number['isFinite'](Jv)&&Number['isInteger'](Jv)&&Jv>=-0x80000000&&Jv<=0x7fffffff?Jv^J6|0x0:Jv;J7=Jv=>{Z[h++]=JX(Jv);},J8=()=>JX(Z[--h]),J9=()=>JX(Z[h-0x1]),JJ=Jv=>{Z[h-0x1]=JX(Jv);},Jl=Jv=>JX(Z[h-Jv]),JE=(Jv,JO)=>{Z[h-Jv]=JX(JO);};}else J7=Jv=>{Z[h++]=Jv;},J8=()=>Z[--h],J9=()=>Z[h-0x1],JJ=Jv=>{Z[h-0x1]=Jv;},Jl=Jv=>Z[h-Jv],JE=(Jv,JO)=>{Z[h-Jv]=JO;};let JK=R['jk']||0x0,Jy=R['bk']||0x0,Jd=Jv=>JK?Jv^JK:Jv,JH={'parent':z,'vars':Object['create'](null)};if(n)for(let Jv=0x0;Jv<Math['min'](n['length'],R['p']||0x0);Jv++){P[Jv]=n[Jv];}let Jk=null;if(R['nfe']&&R['ni']!==undefined&&F){let JO=R['c'][R['ni']];JH['vars'][JO]=F;if(!JH['constVars'])JH['constVars']={};JH['constVars'][JO]=!![];try{Object['defineProperty'](F,'name',{'value':JO,'writable':![],'enumerable':![],'configurable':!![]});}catch(Jj){}}while(N<x){try{while(N<x){let JW=N<<0x1,Jw=G[JW]^Jy,Jb=Jw,JA=J3[Jb],Jt=G[JW+0x1],Jg=Jt===null?undefined:typeof Jt==='number'?Jt^Jy:Jt;if(Jb<0xa)switch(JA){case J3[0x0]:{J7(a[Jg]),N++;break;}case J3[0x1]:{J7(undefined),N++;break;}case J3[0x2]:{J7(null),N++;break;}case J3[0x3]:{h--,N++;break;}case J3[0x4]:{let Jr=J9();J7(Jr),N++;break;}case J3[0x5]:{let Je=J9();JJ(Jl(0x2)),JE(0x2,Je),N++;break;}case J3[0x1b]:{let Js=Jl(0x3),JD=Jl(0x2),JT=J9();JE(0x3,JD),JE(0x2,JT),JJ(Js),N++;break;}case J3[0x6]:{J7(P[Jg]),N++;break;}case J3[0x7]:{P[Jg]=J8(),N++;break;}case J3[0x8]:{J7(n[Jg]),N++;break;}case J3[0x9]:{n[Jg]=J8(),N++;break;}}else{if(Jb<0x14)switch(JA){case J3[0xa]:{let JY=J8(),JB=J8();J7(JB+JY),N++;break;}case J3[0xb]:{let Jc=J8(),JM=J8();J7(JM-Jc),N++;break;}case J3[0xc]:{let JU=J8(),JV=J8();J7(JV*JU),N++;break;}case J3[0xd]:{let Jq=J8(),JL=J8();J7(JL/Jq),N++;break;}case J3[0xe]:{let JQ=J8(),JC=J8();J7(JC%JQ),N++;break;}case J3[0xf]:JJ(-J9()),N++;break;case J3[0x13]:JJ(+J9()),N++;break;case J3[0x12]:{let Ju=J8(),Jm=J8();J7(Math['pow'](Jm,Ju)),N++;break;}}else{if(Jb<0x32)switch(JA){case J3[0x14]:{let JR=J8(),Jn=J8();J7(Jn&JR),N++;break;}case J3[0x15]:{let Jz=J8(),JF=J8();J7(JF|Jz),N++;break;}case J3[0x16]:{let Jp=J8(),Ji=J8();J7(Ji^Jp),N++;break;}case J3[0x17]:JJ(~J9()),N++;break;case J3[0x18]:{let JZ=J8(),Jh=J8();J7(Jh<<JZ),N++;break;}case J3[0x19]:{let JP=J8(),JN=J8();J7(JN>>JP),N++;break;}case J3[0x1a]:{let Ja=J8(),JG=J8();J7(JG>>>Ja),N++;break;}case J3[0x20]:JJ(!J9()),N++;break;case J3[0x28]:{let Jo=J8(),JS=J8();J7(JS==Jo),N++;break;}case J3[0x29]:{let Jx=J8(),JI=J8();J7(JI!=Jx),N++;break;}case J3[0x2a]:{let Jf=J8(),l0=J8();J7(l0===Jf),N++;break;}case J3[0x2b]:{let l1=J8(),l2=J8();J7(l2!==l1),N++;break;}case J3[0x2c]:{let l3=J8(),l4=J8();J7(l4<l3),N++;break;}case J3[0x2d]:{let l5=J8(),l6=J8();J7(l6<=l5),N++;break;}case J3[0x2e]:{let l7=J8(),l8=J8();J7(l8>l7),N++;break;}case J3[0x2f]:{let l9=J8(),lJ=J8();J7(lJ>=l9),N++;break;}}else{if(Jb<0x46)switch(JA){case J3[0x32]:{N=Jd(o[N]);break;}case J3[0x33]:{J8()?N=Jd(o[N]):N++;break;}case J3[0x34]:{!J8()?N=Jd(o[N]):N++;break;}case J3[0x35]:{let ll=J8();ll!==null&&ll!==undefined?N=Jd(o[N]):N++;break;}case J3[0x36]:{let lE=J8(),lK=J8(),ly=O_cf2473['_$0RR7rU'];O_cf2473['_$0RR7rU']=undefined;try{let ld=lK['apply'](undefined,t(J8,lE));J7(ld);}finally{O_cf2473['_$0RR7rU']=ly;}N++;break;}case J3[0x37]:{let lH=J8(),lk=J8(),lX=J8();if(typeof lk!=='function')throw new TypeError(lk+' is not a function');let lv=O_cf2473['_$HKOt11'],lO=lv&&lv['get'](lk),lj=O_cf2473['_$0RR7rU'];lO&&(O_cf2473['_$L9foJH']=!![],O_cf2473['_$0RR7rU']=lO);try{let lW=lk['apply'](lX,t(J8,lH));J7(lW);}finally{lO&&(O_cf2473['_$L9foJH']=![],O_cf2473['_$0RR7rU']=lj);}N++;break;}case J3[0x38]:{if(I['length']>0x0){let lw=I[I['length']-0x1];if(lw['finallyIndex']!==undefined){J0['hasReturn']=!![],J0['value']=J8(),N=lw['finallyIndex'];break;}}return J0['hasReturn']&&(J0['hasReturn']=![],J0['value']=undefined),J8();}case J3[0x39]:{throw J8();}case J3[0x3f]:{if(I['length']>0x0){let lb=I[I['length']-0x1];if(lb['finallyIndex']!==undefined){J1['hasBreak']=!![],J1['target']=Jd(o[N]),N=lb['finallyIndex'];break;}}N=Jd(o[N]);break;}case J3[0x40]:{if(I['length']>0x0){let lA=I[I['length']-0x1];if(lA['finallyIndex']!==undefined){J2['hasContinue']=!![],J2['target']=Jd(o[N]),N=lA['finallyIndex'];break;}}N=Jd(o[N]);break;}case J3[0x3a]:{let lt=S[N];I['push']({'catchIndex':lt[0x0]>=0x0?Jd(lt[0x0]):undefined,'finallyIndex':lt[0x1]>=0x0?Jd(lt[0x1]):undefined,'endIndex':lt[0x2]>=0x0?Jd(lt[0x2]):undefined,'stackSize':h}),N++;break;}case J3[0x3b]:{I['pop'](),N++;break;}case J3[0x3c]:{let lg=J8();if(Jg>=0x0){let lr=a[Jg];JH['vars'][lr]=lg;}N++;break;}case J3[0x3d]:{if(I['length']>0x0){let le=I[I['length']-0x1];le['finallyIndex']===N&&(le['pendingException']!==undefined&&(f=le['pendingException']),I['pop']());}N++;break;}case J3[0x3e]:{if(J0['hasReturn']){let ls=J0['value'];return J0['hasReturn']=![],J0['value']=undefined,ls;}if(J1['hasBreak']){let lD=J1['target'];J1['hasBreak']=![],J1['target']=0x0,N=lD;break;}if(J2['hasContinue']){let lT=J2['target'];J2['hasContinue']=![],J2['target']=0x0,N=lT;break;}if(f!==null){let lY=f;f=null;throw lY;}N++;break;}}else{if(Jb<0x5a)switch(JA){case J3[0x46]:{let lB=J8(),lc=a[Jg];if(lB===null||lB===undefined)throw new TypeError("Cannot read property '"+String(lc)+"' of "+lB);J7(lB[lc]),N++;break;}case J3[0x47]:{let lM=J8(),lU=J8(),lV=a[Jg];if(lU===null||lU===undefined)throw new TypeError("Cannot set property '"+String(lV)+"' of "+lU);lU[lV]=lM,J7(lM),N++;break;}case J3[0x48]:{let lq=J8(),lL=J8();if(lL===null||lL===undefined)throw new TypeError("Cannot read property '"+String(lq)+"' of "+lL);J7(lL[lq]),N++;break;}case J3[0x49]:{let lQ=J8(),lC=J8(),lu=J8();if(lu===null||lu===undefined)throw new TypeError("Cannot set property '"+String(lC)+"' of "+lu);lu[lC]=lQ,J7(lQ),N++;break;}case J3[0x4a]:{let lm,lR;Jg!==undefined?(lR=J8(),lm=a[Jg]):(lm=J8(),lR=J8());let ln=delete lR[lm];J7(ln),N++;break;}case J3[0x4b]:{let lz=a[Jg],lF,lp=typeof globalThis!=='undefined'?globalThis:typeof window!=='undefined'?window:global;if(lz in O_cf2473)lF=O_cf2473[lz];else{if(j&&lz in j)lF=j[lz];else{if(lz in lp)lF=lp[lz];else throw new ReferenceError(lz+' is not defined');}}J7(lF),N++;break;}case J3[0x4c]:{let li=J8(),lZ=a[Jg];j&&lZ in j?j[lZ]=li:O_cf2473[lZ]=li;J7(li),N++;break;}case J3[0x4d]:{J7({}),N++;break;}case J3[0x4e]:{let lh=J8(),lP=a[Jg];lh===null||lh===undefined?J7(undefined):J7(lh[lP]);N++;break;}case J3[0x4f]:{let lN=J8(),la=J8();J7(la in lN),N++;break;}case J3[0x51]:{let lG=J8(),lo=J9();lG!==null&&lG!==undefined&&Object['assign'](lo,lG);N++;break;}case J3[0x52]:{let lS=J8(),lx=J8();lx===null||lx===undefined?J7(undefined):J7(lx[lS]);N++;break;}}else{if(Jb<0x78)switch(JA){case J3[0x5a]:{J7([]),N++;break;}case J3[0x5b]:{let lI=J8(),lf=J9();lf['push'](lI),N++;break;}case J3[0x5d]:{let E0=J8(),E1={'value':E0};A['add'](E1),J7(E1),N++;break;}case J3[0x5e]:{let E2=J8(),E3=J9();if(Array['isArray'](E2))Array['prototype']['push']['apply'](E3,E2);else for(let E4 of E2){E3['push'](E4);}N++;break;}case J3[0x6e]:{JJ(typeof J9()),N++;break;}case J3[0x6f]:{let E5=J8(),E6=J8();J7(E6 instanceof E5),N++;break;}case J3[0x70]:{let E7=a[Jg],E8=typeof globalThis!=='undefined'?globalThis:typeof window!=='undefined'?window:global;if(E7 in O_cf2473)J7(typeof O_cf2473[E7]);else j&&E7 in j?J7(typeof j[E7]):J7(typeof E8[E7]);N++;break;}case J3[0x69]:{let E9=J8(),EJ=t(J8,E9),El=J8();if(Jg===0x1){J7(EJ),N++;break;}if(typeof El!=='function')throw new TypeError('Super expression must be a constructor');O_cf2473['_$6brPrP']=p;try{El['apply'](i,EJ);}finally{delete O_cf2473['_$6brPrP'];}N++;break;}case J3[0x64]:{let EE=J8(),EK=w(EE),Ey=EK&&EK['a'],Ed=EK&&EK['s'],EH=EK&&EK['g'],Ek=JH,EX=U,Ev=V,EO=q,Ej=EK&&EK['ni']!==undefined?EK['c'][EK['ni']]:undefined,EW=Ey?i:undefined,Ew=function(Eb,EA,Et,Eg,Er,Ee,Es,ED,ET,EY){let EB,Ec;if(Er)Ec=function(){let EM=[];for(let EU=0x0;EU<arguments['length'];EU++){EM['push'](arguments[EU]);}return ED['call'](this,Eb,EM,EA,EB);};else Eg?Ec=async function(){let EM=[];for(let EV=0x0;EV<arguments['length'];EV++){EM['push'](arguments[EV]);}let EU=new.target!==undefined?new.target:O_cf2473['_$6brPrP'];return Et?await Es['call'](EY,Eb,EM,EA,EB,undefined):await Es['call'](this,Eb,EM,EA,EB,EU);}:Ec=function(){let EM=[];for(let EV=0x0;EV<arguments['length'];EV++){EM['push'](arguments[EV]);}let EU=new.target!==undefined?new.target:O_cf2473['_$6brPrP'];return Et?Ee['call'](EY,Eb,EM,EA,EB,undefined):Ee['call'](this,Eb,EM,EA,EB,EU);};EB=Ec;if(ET)try{Object['defineProperty'](EB,'name',{'value':ET,'writable':![],'enumerable':![],'configurable':!![]});}catch(EM){}return EB;}(EE,Ek,Ey,Ed,EH,EX,Ev,EO,Ej,EW);if(!Ew)throw new Error('VM Error: Failed to create closure');J7(Ew),N++;break;}case J3[0x68]:{let Eb=J8(),EA=t(J8,Eb),Et=J8();if(typeof Et!=='function')throw new TypeError(Et+' is not a constructor');let Eg=O_cf2473['_$0RR7rU'];O_cf2473['_$0RR7rU']=undefined;let Er;try{Er=Reflect['construct'](Et,EA);}finally{O_cf2473['_$0RR7rU']=Eg;}J7(Er),N++;break;}case J3[0x6a]:{let Ee=J8();J7(import(Ee)),N++;break;}}else{if(Jb<0x8c)switch(JA){case J3[0x7f]:{let Es=J8();if(Es==null)throw new TypeError('Cannot iterate over '+Es);let ED=Es[Symbol['iterator']];if(typeof ED!=='function')throw new TypeError('Object is not iterable');J7(ED['call'](Es)),N++;break;}case J3[0x7b]:{let ET=J8(),EY=ET['next']();J7(EY),N++;break;}case J3[0x80]:{let EB=J8();J7(!!EB['done']),N++;break;}}else{if(Jb<0xc8)switch(JA){case J3[0x91]:{let Ec=J8(),EM=J9(),EU=a[Jg],EV=typeof EM==='function'&&EM['prototype']?EM['prototype']:EM;Object['defineProperty'](EV,EU,{'get':Ec,'enumerable':EV===EM,'configurable':!![]}),N++;break;}case J3[0x92]:{let Eq=J8(),EL=J9(),EQ=a[Jg],EC=typeof EL==='function'&&EL['prototype']?EL['prototype']:EL;Object['defineProperty'](EC,EQ,{'set':Eq,'enumerable':EC===EL,'configurable':!![]}),N++;break;}case J3[0x8c]:{let Eu=J8(),Em=J8(),ER=Jg,En=function(Ez,EF,Ep){let Ei;return Ep?Ei=function(){if(EF){O_cf2473['_$LvPGgU']=Ei;let EZ='_$6brPrP'in O_cf2473;!EZ&&(O_cf2473['_$6brPrP']=new.target);try{let Eh=[];for(let EP=0x0;EP<arguments['length'];EP++){Eh['push'](arguments[EP]);}return EF['apply'](this,Eh);}finally{delete O_cf2473['_$LvPGgU'],!EZ&&delete O_cf2473['_$6brPrP'];}}}:Ei=function(){if(EF){let EZ='_$6brPrP'in O_cf2473;!EZ&&(O_cf2473['_$6brPrP']=new.target);try{let Eh=[];for(let EP=0x0;EP<arguments['length'];EP++){Eh['push'](arguments[EP]);}return EF['apply'](this,Eh);}finally{!EZ&&delete O_cf2473['_$6brPrP'];}}},Ei;}(Eu,Em,ER);Eu&&Object['defineProperty'](En,'name',{'value':Eu,'configurable':!![]});J7(En),N++;break;}case J3[0x8d]:{let Ez=J8(),EF=J9();Object['setPrototypeOf'](EF['prototype'],Ez['prototype']),Object['setPrototypeOf'](EF,Ez),EF['_$NyE0XU']=Ez,N++;break;}case J3[0x8e]:{let Ep=J8(),Ei=J8(),EZ=O_cf2473['_$0RR7rU'],Eh=EZ?Object['getPrototypeOf'](EZ):Object['getPrototypeOf'](Object['getPrototypeOf'](Ei)),EP=null,EN=Eh;while(EN!==null){EP=Object['getOwnPropertyDescriptor'](EN,Ep);if(EP)break;EN=Object['getPrototypeOf'](EN);}let Ea;if(EP&&EP['get'])Ea=EP['get']['call'](Ei),J7(Ea);else{if(EP&&EP['set']&&!('value'in EP))J7(undefined);else{Ea=EN?EN[Ep]:Eh[Ep];if(typeof Ea==='function'){let EG=EN||Eh,Eo=Ea['bind'](Ei),ES=Ea['constructor']&&Ea['constructor']['name'],Ex=ES==='GeneratorFunction'||ES==='AsyncFunction'||ES==='AsyncGeneratorFunction';!Ex&&(!O_cf2473['_$HKOt11']&&(O_cf2473['_$HKOt11']=new WeakMap()),O_cf2473['_$HKOt11']['set'](Eo,EG)),J7(Eo);}else J7(Ea);}}N++;break;}case J3[0x8f]:{let EI=J8(),Ef=J8(),K0=J8(),K1=Object['getPrototypeOf'](Object['getPrototypeOf'](K0));K1[Ef]=EI,J7(EI),N++;break;}case J3[0x90]:{let K2=J8(),K3=J9(),K4=a[Jg];Object['defineProperty'](K3['prototype'],K4,{'value':K2,'writable':!![],'enumerable':![],'configurable':!![]}),N++;break;}case J3[0x93]:{let K5=J8(),K6=J9(),K7=a[Jg];Object['defineProperty'](K6,K7,{'value':K5,'writable':!![],'enumerable':![],'configurable':!![]}),N++;break;}case J3[0x94]:{let K8=J8(),K9=J9(),KJ=a[Jg];Object['defineProperty'](K9,KJ,{'get':K8,'enumerable':![],'configurable':!![]}),N++;break;}case J3[0x95]:{let Kl=J8(),KE=J9(),KK=a[Jg];Object['defineProperty'](KE,KK,{'set':Kl,'enumerable':![],'configurable':!![]}),N++;break;}case J3[0xaa]:{let Ky=J8(),Kd=J8(),KH=J9();Object['defineProperty'](KH['prototype'],Kd,{'value':Ky,'writable':!![],'enumerable':![],'configurable':!![]}),N++;break;}case J3[0xab]:{let Kk=J8(),KX=J8(),Kv=J9();Object['defineProperty'](Kv,KX,{'value':Kk,'writable':!![],'enumerable':![],'configurable':!![]}),N++;break;}case J3[0xac]:{let KO=J8(),Kj=J8(),KW=J9(),Kw=typeof KW==='function'&&KW['prototype']?KW['prototype']:KW;Object['defineProperty'](Kw,Kj,{'get':KO,'enumerable':Kw===KW,'configurable':!![]}),N++;break;}case J3[0xad]:{let Kb=J8(),KA=J8(),Kt=J9(),Kg=typeof Kt==='function'&&Kt['prototype']?Kt['prototype']:Kt;Object['defineProperty'](Kg,KA,{'set':Kb,'enumerable':Kg===Kt,'configurable':!![]}),N++;break;}case J3[0xae]:{let Kr=J8(),Ke=J8(),Ks=J9();Object['defineProperty'](Ks,Ke,{'get':Kr,'enumerable':![],'configurable':!![]}),N++;break;}case J3[0xaf]:{let KD=J8(),KT=J8(),KY=J9();Object['defineProperty'](KY,KT,{'set':KD,'enumerable':![],'configurable':!![]}),N++;break;}case J3[0x96]:{let KB=J8(),Kc=a[Jg];!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let KM=O_cf2473['_$H1CFNX'],KU=KM['get'](Kc);if(KU&&KU['has'](KB)){J7(KU['get'](KB)),N++;break;}let KV='_$sSW01x'+Kc['substring'](0x1)+'_$yKe8be';if(KV in KB){J7(KB[KV]),N++;break;}throw new TypeError("Cannot read private member "+Kc+" from an object whose class did not declare it");}case J3[0x97]:{let Kq=J8(),KL=J8(),KQ=a[Jg];!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let KC=O_cf2473['_$H1CFNX'],Ku=KC['get'](KQ);if(Ku&&Ku['has'](KL)){Ku['set'](KL,Kq),J7(Kq),N++;break;}let Km='_$sSW01x'+KQ['substring'](0x1)+'_$yKe8be';if(Km in KL){KL[Km]=Kq,J7(Kq),N++;break;}throw new TypeError("Cannot write private member "+KQ+" to an object whose class did not declare it");}case J3[0x98]:{let KR=J8(),Kn=J8(),Kz=a[Jg];!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let KF=O_cf2473['_$H1CFNX'];!KF['has'](Kz)&&KF['set'](Kz,new WeakMap());let Kp=KF['get'](Kz);if(Kp['has'](Kn))throw new TypeError("Cannot initialize "+Kz+" twice on the same object");Kp['set'](Kn,KR),N++;break;}case J3[0x99]:{let Ki=J8(),KZ=a[Jg],Kh=![];if(O_cf2473['_$H1CFNX']){let KP=O_cf2473['_$H1CFNX'],KN=KP['get'](KZ);Kh=KN&&KN['has'](Ki);}J7(Kh),N++;break;}case J3[0x9a]:{let Ka=J8(),KG=J8(),Ko=a[Jg],KS=null;if(O_cf2473['_$H1CFNX']){let Kf=O_cf2473['_$H1CFNX'],y0=Kf['get'](Ko);y0&&y0['has'](KG)&&(KS=y0['get'](KG));}if(KS===null){let y1='_$dTSip4'+Ko['substring'](0x1)+'_$XVJ1ae';y1 in KG&&(KS=KG[y1]);}if(KS===null)throw new TypeError("Cannot read private member "+Ko+" from an object whose class did not declare it");if(typeof KS!=='function')throw new TypeError(Ko+" is not a function");let Kx=[];for(let y2=0x0;y2<Ka;y2++){Kx['unshift'](J8());}let KI=KS['apply'](KG,Kx);J7(KI),N++;break;}case J3[0x9b]:{let y3=J8(),y4=a[Jg];if(y3==null){J7(undefined),N++;break;}!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let y5=O_cf2473['_$H1CFNX'],y6=y5['get'](y4);if(!y6||!y6['has'](y3))throw new TypeError("Cannot read private member "+y4+" from an object whose class did not declare it");J7(y6['get'](y3)),N++;break;}case J3[0x9c]:{let y7=J8();J8();let y8=J9(),y9=a[Jg];!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let yJ=O_cf2473['_$H1CFNX'];!yJ['has'](y9)&&yJ['set'](y9,new WeakMap());let yl=yJ['get'](y9);yl['set'](y8,y7),N++;break;}case J3[0x9d]:{let yE=J8(),yK=a[Jg];if(O_cf2473['_$H1CFNX']){let yd=O_cf2473['_$H1CFNX'],yH=yd['get'](yK);if(yH&&yH['has'](yE)){J7(yH['get'](yE)),N++;break;}}let yy='_$sSW01x'+yK['substring'](0x1)+'_$yKe8be';if(yy in yE){J7(yE[yy]),N++;break;}throw new TypeError("Cannot read private member "+yK+" from an object whose class did not declare it");}case J3[0x9e]:{let yk=J8(),yX=J8(),yv=a[Jg];if(O_cf2473['_$H1CFNX']){let yj=O_cf2473['_$H1CFNX'],yW=yj['get'](yv);if(yW&&yW['has'](yX)){yW['set'](yX,yk),J7(yk),N++;break;}}let yO='_$sSW01x'+yv['substring'](0x1)+'_$yKe8be';if(yO in yX){yX[yO]=yk,J7(yk),N++;break;}throw new TypeError("Cannot write private member "+yv+" to an object whose class did not declare it");}case J3[0xa0]:{J7(i),N++;break;}case J3[0xa1]:{if(Jk===null){Jk=Array['prototype']['slice']['call'](n||[]);try{Jk['callee']=F;}catch(yw){}}J7(Jk),N++;break;}case J3[0xa4]:{J7(p),N++;break;}case J3[0xa2]:{let yb=Jg&0xffff,yA=Jg>>0x10,yt=a[yb],yg=a[yA];J7(new RegExp(yt,yg)),N++;break;}case J3[0xa3]:{h--,J7(undefined),N++;break;}case J3[0xa7]:{if(Jg===-0x1)J7(Symbol());else{let yr=J8();J7(Symbol(yr));}N++;break;}case J3[0xa8]:{let ye=a[Jg];J7(Symbol['for'](ye)),N++;break;}case J3[0xa9]:{let ys=J8();J7(Symbol['keyFor'](ys)),N++;break;}case J3[0xaa]:{N++;break;}case J3[0xc8]:{debugger;N++;break;}case J3[0xc9]:{N++;break;}case J3[0xca]:{return h>0x0?J8():undefined;}}else{if(Jb>=0xc8)switch(JA){case J3[0xa0]:{J7(i),N++;break;}case J3[0xa1]:{if(Jk===null){Jk=Array['prototype']['slice']['call'](n||[]);try{Jk['callee']=F;}catch(yD){}}J7(Jk),N++;break;}case J3[0xa4]:{J7(p),N++;break;}case J3[0xa2]:{let yT=Jg&0xffff,yY=Jg>>0x10,yB=a[yT],yc=a[yY];J7(new RegExp(yB,yc)),N++;break;}case J3[0xa3]:{h--,J7(undefined),N++;break;}case J3[0xa7]:{if(Jg===-0x1)J7(Symbol());else{let yM=J8();J7(Symbol(yM));}N++;break;}case J3[0xa8]:{let yU=a[Jg];J7(Symbol['for'](yU)),N++;break;}case J3[0xa9]:{let yV=J8();J7(Symbol['keyFor'](yV)),N++;break;}case J3[0xaa]:{N++;break;}case J3[0xc8]:{debugger;N++;break;}case J3[0xc9]:{N++;break;}case J3[0xca]:{return h>0x0?J8():undefined;}case J3[0xd2]:{let yq=J8(),yL={'vars':Object['create'](null),'constVars':Object['create'](null),'tdzVars':Object['create'](null),'parent':yq};JH=yL,N++;break;}case J3[0xd3]:{let yQ=a[Jg],yC=JH,yu,ym=![];while(yC){if(yC['tdzVars']&&yQ in yC['tdzVars'])throw new ReferenceError("Cannot access '"+yQ+"' before initialization");if(yQ in yC['vars']){yu=yC['vars'][yQ],ym=!![];break;}yC=yC['parent'];}yQ==='__this__'&&(yu=i,ym=!![]);if(!ym){if(yQ in O_cf2473)yu=O_cf2473[yQ];else j&&yQ in j?yu=j[yQ]:yu=(typeof globalThis!=='undefined'?globalThis:typeof window!=='undefined'?window:global)[yQ];}J7(yu),N++;break;}case J3[0xd4]:{let yR=a[Jg],yn=J8(),yz=JH,yF=![];while(yz){if(yR in yz['vars']){if(yz['constVars']&&yR in yz['constVars'])throw new TypeError('Assignment to constant variable.');yz['tdzVars']&&yR in yz['tdzVars']&&delete yz['tdzVars'][yR];yz['vars'][yR]=yn,yF=!![];break;}yz=yz['parent'];}!yF&&(JH['tdzVars']&&yR in JH['tdzVars']&&delete JH['tdzVars'][yR],JH['vars'][yR]=yn);N++;break;}case J3[0xd5]:{J7(JH),N++;break;}case J3[0xd6]:{JH&&JH['parent']&&(JH=JH['parent']);N++;break;}case J3[0xd7]:{let yp=a[Jg],yi=J8();if(JH['tdzVars']){yp in JH['tdzVars']&&delete JH['tdzVars'][yp];let yZ=yp['split']('$$')[0x0];yZ!==yp&&yZ in JH['tdzVars']&&delete JH['tdzVars'][yZ];}JH['vars'][yp]=yi,N++;break;}case J3[0xd8]:{let yh=a[Jg],yP=J8(),yN=JH,ya=![];while(yN){if(yh in yN['vars']){if(yN['constVars']&&yh in yN['constVars'])break;yN['vars'][yh]=yP;!yN['constVars']&&(yN['constVars']={});yN['constVars'][yh]=!![],ya=!![];break;}yN=yN['parent'];}!ya&&(JH['tdzVars']&&yh in JH['tdzVars']&&delete JH['tdzVars'][yh],JH['vars'][yh]=yP,!JH['constVars']&&(JH['constVars']={}),JH['constVars'][yh]=!![]);N++;break;}case J3[0xd9]:{let yG=a[Jg],yo=J8();if(JH['tdzVars']){yG in JH['tdzVars']&&delete JH['tdzVars'][yG];let yS=yG['split']('$$')[0x0];yS!==yG&&yS in JH['tdzVars']&&delete JH['tdzVars'][yS];}JH['vars'][yG]=yo;!JH['constVars']&&(JH['constVars']={});JH['constVars'][yG]=!![],N++;break;}case J3[0xda]:{let yx=a[Jg];!JH['tdzVars']&&(JH['tdzVars']={});JH['tdzVars'][yx]=!![],N++;break;}}else throw new Error('Unknown opcode: '+JA+' (logical: '+Jb+')');}}}}}}}}}break;}catch(yI){if(I['length']>0x0){let yf=I[I['length']-0x1];h=yf['stackSize'];if(yf['catchIndex']!==undefined)J7(yI),N=yf['catchIndex'],yf['catchIndex']=undefined,yf['finallyIndex']===undefined&&I['pop']();else yf['finallyIndex']!==undefined?(N=yf['finallyIndex'],yf['pendingException']=yI):(N=yf['endIndex'],I['pop']());continue;}throw yI;}}return h>0x0?J8():undefined;}function*M(R,n,z,F,p,i){let Z=[],h=0x0,P=new Array((R['p']||0x0)+(R['l']||0x0)),N=0x0,a=R['c'],G=R['i'],o=R['j']||{},S=R['x']||{},x=G['length']>>0x1,I=[],f=null,J0={'hasReturn':![],'value':undefined},J1={'hasBreak':![],'target':0x0},J2={'hasContinue':![],'target':0x0},J3=R['o']||b;var J4=0x0,J5=null;let J6=R['seKey'],J7,J8,J9,JJ,Jl,JE;if(J6!==undefined){let JX=Jv=>typeof Jv==='number'&&Number['isFinite'](Jv)&&Number['isInteger'](Jv)&&Jv>=-0x80000000&&Jv<=0x7fffffff?Jv^J6|0x0:Jv;J7=Jv=>{Z[h++]=JX(Jv);},J8=()=>JX(Z[--h]),J9=()=>JX(Z[h-0x1]),JJ=Jv=>{Z[h-0x1]=JX(Jv);},Jl=Jv=>JX(Z[h-Jv]),JE=(Jv,JO)=>{Z[h-Jv]=JX(JO);};}else J7=Jv=>{Z[h++]=Jv;},J8=()=>Z[--h],J9=()=>Z[h-0x1],JJ=Jv=>{Z[h-0x1]=Jv;},Jl=Jv=>Z[h-Jv],JE=(Jv,JO)=>{Z[h-Jv]=JO;};let JK=R['jk']||0x0,Jy=R['bk']||0x0,Jd=Jv=>JK?Jv^JK:Jv,JH={'parent':z,'vars':Object['create'](null)};if(n)for(let Jv=0x0;Jv<Math['min'](n['length'],R['p']||0x0);Jv++){P[Jv]=n[Jv];}let Jk=null;if(R['nfe']&&R['ni']!==undefined&&F){let JO=R['c'][R['ni']];JH['vars'][JO]=F;if(!JH['constVars'])JH['constVars']={};JH['constVars'][JO]=!![];try{Object['defineProperty'](F,'name',{'value':JO,'writable':![],'enumerable':![],'configurable':!![]});}catch(Jj){}}while(N<x){try{while(N<x){let JW=N<<0x1,Jw=G[JW]^Jy,Jb=Jw,JA=J3[Jb],Jt=G[JW+0x1],Jg=Jt===null?undefined:typeof Jt==='number'?Jt^Jy:Jt;if(Jb===0x7a){let Jr=J8(),Je=yield{'t':0x1,'v':Jr};J7(Je),N++;continue;}if(Jb===0x78){let Js=J8(),JD=yield{'t':0x2,'v':Js};J7(JD),N++;continue;}if(Jb===0x79){let JT=J8(),JY=yield{'t':0x3,'v':JT};J7(JY),N++;continue;}if(Jb<0xa)switch(JA){case J3[0x0]:{J7(a[Jg]),N++;break;}case J3[0x1]:{J7(undefined),N++;break;}case J3[0x2]:{J7(null),N++;break;}case J3[0x3]:{h--,N++;break;}case J3[0x4]:{let JB=J9();J7(JB),N++;break;}case J3[0x5]:{let Jc=J9();JJ(Jl(0x2)),JE(0x2,Jc),N++;break;}case J3[0x1b]:{let JM=Jl(0x3),JU=Jl(0x2),JV=J9();JE(0x3,JU),JE(0x2,JV),JJ(JM),N++;break;}case J3[0x6]:{J7(P[Jg]),N++;break;}case J3[0x7]:{P[Jg]=J8(),N++;break;}case J3[0x8]:{J7(n[Jg]),N++;break;}case J3[0x9]:{n[Jg]=J8(),N++;break;}}else{if(Jb<0x14)switch(JA){case J3[0xa]:{let Jq=J8(),JL=J8();J7(JL+Jq),N++;break;}case J3[0xb]:{let JQ=J8(),JC=J8();J7(JC-JQ),N++;break;}case J3[0xc]:{let Ju=J8(),Jm=J8();J7(Jm*Ju),N++;break;}case J3[0xd]:{let JR=J8(),Jn=J8();J7(Jn/JR),N++;break;}case J3[0xe]:{let Jz=J8(),JF=J8();J7(JF%Jz),N++;break;}case J3[0xf]:JJ(-J9()),N++;break;case J3[0x13]:JJ(+J9()),N++;break;case J3[0x12]:{let Jp=J8(),Ji=J8();J7(Math['pow'](Ji,Jp)),N++;break;}}else{if(Jb<0x32)switch(JA){case J3[0x14]:{let JZ=J8(),Jh=J8();J7(Jh&JZ),N++;break;}case J3[0x15]:{let JP=J8(),JN=J8();J7(JN|JP),N++;break;}case J3[0x16]:{let Ja=J8(),JG=J8();J7(JG^Ja),N++;break;}case J3[0x17]:JJ(~J9()),N++;break;case J3[0x18]:{let Jo=J8(),JS=J8();J7(JS<<Jo),N++;break;}case J3[0x19]:{let Jx=J8(),JI=J8();J7(JI>>Jx),N++;break;}case J3[0x1a]:{let Jf=J8(),l0=J8();J7(l0>>>Jf),N++;break;}case J3[0x20]:JJ(!J9()),N++;break;case J3[0x28]:{let l1=J8(),l2=J8();J7(l2==l1),N++;break;}case J3[0x29]:{let l3=J8(),l4=J8();J7(l4!=l3),N++;break;}case J3[0x2a]:{let l5=J8(),l6=J8();J7(l6===l5),N++;break;}case J3[0x2b]:{let l7=J8(),l8=J8();J7(l8!==l7),N++;break;}case J3[0x2c]:{let l9=J8(),lJ=J8();J7(lJ<l9),N++;break;}case J3[0x2d]:{let ll=J8(),lE=J8();J7(lE<=ll),N++;break;}case J3[0x2e]:{let lK=J8(),ly=J8();J7(ly>lK),N++;break;}case J3[0x2f]:{let ld=J8(),lH=J8();J7(lH>=ld),N++;break;}}else{if(Jb<0x46)switch(JA){case J3[0x32]:{N=Jd(o[N]);break;}case J3[0x33]:{J8()?N=Jd(o[N]):N++;break;}case J3[0x34]:{!J8()?N=Jd(o[N]):N++;break;}case J3[0x35]:{let lk=J8();lk!==null&&lk!==undefined?N=Jd(o[N]):N++;break;}case J3[0x36]:{let lX=J8(),lv=J8(),lO=O_cf2473['_$0RR7rU'];O_cf2473['_$0RR7rU']=undefined;try{let lj=lv['apply'](undefined,t(J8,lX));J7(lj);}finally{O_cf2473['_$0RR7rU']=lO;}N++;break;}case J3[0x37]:{let lW=J8(),lw=J8(),lb=J8();if(typeof lw!=='function')throw new TypeError(lw+' is not a function');let lA=O_cf2473['_$HKOt11'],lt=lA&&lA['get'](lw),lg=O_cf2473['_$0RR7rU'];lt&&(O_cf2473['_$L9foJH']=!![],O_cf2473['_$0RR7rU']=lt);try{let lr=lw['apply'](lb,t(J8,lW));J7(lr);}finally{lt&&(O_cf2473['_$L9foJH']=![],O_cf2473['_$0RR7rU']=lg);}N++;break;}case J3[0x38]:{if(I['length']>0x0){let le=I[I['length']-0x1];if(le['finallyIndex']!==undefined){J0['hasReturn']=!![],J0['value']=J8(),N=le['finallyIndex'];break;}}return J0['hasReturn']&&(J0['hasReturn']=![],J0['value']=undefined),J8();}case J3[0x39]:{throw J8();}case J3[0x3f]:{if(I['length']>0x0){let ls=I[I['length']-0x1];if(ls['finallyIndex']!==undefined){J1['hasBreak']=!![],J1['target']=Jd(o[N]),N=ls['finallyIndex'];break;}}N=Jd(o[N]);break;}case J3[0x40]:{if(I['length']>0x0){let lD=I[I['length']-0x1];if(lD['finallyIndex']!==undefined){J2['hasContinue']=!![],J2['target']=Jd(o[N]),N=lD['finallyIndex'];break;}}N=Jd(o[N]);break;}case J3[0x3a]:{let lT=S[N];I['push']({'catchIndex':lT[0x0]>=0x0?Jd(lT[0x0]):undefined,'finallyIndex':lT[0x1]>=0x0?Jd(lT[0x1]):undefined,'endIndex':lT[0x2]>=0x0?Jd(lT[0x2]):undefined,'stackSize':h}),N++;break;}case J3[0x3b]:{I['pop'](),N++;break;}case J3[0x3c]:{let lY=J8();if(Jg>=0x0){let lB=a[Jg];JH['vars'][lB]=lY;}N++;break;}case J3[0x3d]:{if(I['length']>0x0){let lc=I[I['length']-0x1];lc['finallyIndex']===N&&(lc['pendingException']!==undefined&&(f=lc['pendingException']),I['pop']());}N++;break;}case J3[0x3e]:{if(J0['hasReturn']){let lM=J0['value'];return J0['hasReturn']=![],J0['value']=undefined,lM;}if(J1['hasBreak']){let lU=J1['target'];J1['hasBreak']=![],J1['target']=0x0,N=lU;break;}if(J2['hasContinue']){let lV=J2['target'];J2['hasContinue']=![],J2['target']=0x0,N=lV;break;}if(f!==null){let lq=f;f=null;throw lq;}N++;break;}}else{if(Jb<0x5a)switch(JA){case J3[0x46]:{let lL=J8(),lQ=a[Jg];if(lL===null||lL===undefined)throw new TypeError("Cannot read property '"+String(lQ)+"' of "+lL);J7(lL[lQ]),N++;break;}case J3[0x47]:{let lC=J8(),lu=J8(),lm=a[Jg];if(lu===null||lu===undefined)throw new TypeError("Cannot set property '"+String(lm)+"' of "+lu);lu[lm]=lC,J7(lC),N++;break;}case J3[0x48]:{let lR=J8(),ln=J8();if(ln===null||ln===undefined)throw new TypeError("Cannot read property '"+String(lR)+"' of "+ln);J7(ln[lR]),N++;break;}case J3[0x49]:{let lz=J8(),lF=J8(),lp=J8();if(lp===null||lp===undefined)throw new TypeError("Cannot set property '"+String(lF)+"' of "+lp);lp[lF]=lz,J7(lz),N++;break;}case J3[0x4a]:{let li,lZ;Jg!==undefined?(lZ=J8(),li=a[Jg]):(li=J8(),lZ=J8());let lh=delete lZ[li];J7(lh),N++;break;}case J3[0x4b]:{let lP=a[Jg],lN,la=typeof globalThis!=='undefined'?globalThis:typeof window!=='undefined'?window:global;if(lP in O_cf2473)lN=O_cf2473[lP];else{if(j&&lP in j)lN=j[lP];else{if(lP in la)lN=la[lP];else throw new ReferenceError(lP+' is not defined');}}J7(lN),N++;break;}case J3[0x4c]:{let lG=J8(),lo=a[Jg];j&&lo in j?j[lo]=lG:O_cf2473[lo]=lG;J7(lG),N++;break;}case J3[0x4d]:{J7({}),N++;break;}case J3[0x4e]:{let lS=J8(),lx=a[Jg];lS===null||lS===undefined?J7(undefined):J7(lS[lx]);N++;break;}case J3[0x4f]:{let lI=J8(),lf=J8();J7(lf in lI),N++;break;}case J3[0x51]:{let E0=J8(),E1=J9();E0!==null&&E0!==undefined&&Object['assign'](E1,E0);N++;break;}case J3[0x52]:{let E2=J8(),E3=J8();E3===null||E3===undefined?J7(undefined):J7(E3[E2]);N++;break;}}else{if(Jb<0x78)switch(JA){case J3[0x5a]:{J7([]),N++;break;}case J3[0x5b]:{let E4=J8(),E5=J9();E5['push'](E4),N++;break;}case J3[0x5d]:{let E6=J8(),E7={'value':E6};A['add'](E7),J7(E7),N++;break;}case J3[0x5e]:{let E8=J8(),E9=J9();if(Array['isArray'](E8))Array['prototype']['push']['apply'](E9,E8);else for(let EJ of E8){E9['push'](EJ);}N++;break;}case J3[0x6e]:{JJ(typeof J9()),N++;break;}case J3[0x6f]:{let El=J8(),EE=J8();J7(EE instanceof El),N++;break;}case J3[0x70]:{let EK=a[Jg],Ey=typeof globalThis!=='undefined'?globalThis:typeof window!=='undefined'?window:global;if(EK in O_cf2473)J7(typeof O_cf2473[EK]);else j&&EK in j?J7(typeof j[EK]):J7(typeof Ey[EK]);N++;break;}case J3[0x69]:{let Ed=J8(),EH=t(J8,Ed),Ek=J8();if(Jg===0x1){J7(EH),N++;break;}if(typeof Ek!=='function')throw new TypeError('Super expression must be a constructor');O_cf2473['_$6brPrP']=p;try{Ek['apply'](i,EH);}finally{delete O_cf2473['_$6brPrP'];}N++;break;}case J3[0x64]:{let EX=J8(),Ev=w(EX),EO=Ev&&Ev['a'],Ej=Ev&&Ev['s'],EW=Ev&&Ev['g'],Ew=JH,Eb=U,EA=V,Et=q,Eg=Ev&&Ev['ni']!==undefined?Ev['c'][Ev['ni']]:undefined,Er=EO?i:undefined,Ee=function(Es,ED,ET,EY,EB,Ec,EM,EU,EV,Eq){let EL,EQ;if(EB)EQ=function(){let EC=[];for(let Eu=0x0;Eu<arguments['length'];Eu++){EC['push'](arguments[Eu]);}return EU['call'](this,Es,EC,ED,EL);};else EY?EQ=async function(){let EC=[];for(let Em=0x0;Em<arguments['length'];Em++){EC['push'](arguments[Em]);}let Eu=new.target!==undefined?new.target:O_cf2473['_$6brPrP'];return ET?await EM['call'](Eq,Es,EC,ED,EL,undefined):await EM['call'](this,Es,EC,ED,EL,Eu);}:EQ=function(){let EC=[];for(let Em=0x0;Em<arguments['length'];Em++){EC['push'](arguments[Em]);}let Eu=new.target!==undefined?new.target:O_cf2473['_$6brPrP'];return ET?Ec['call'](Eq,Es,EC,ED,EL,undefined):Ec['call'](this,Es,EC,ED,EL,Eu);};EL=EQ;if(EV)try{Object['defineProperty'](EL,'name',{'value':EV,'writable':![],'enumerable':![],'configurable':!![]});}catch(EC){}return EL;}(EX,Ew,EO,Ej,EW,Eb,EA,Et,Eg,Er);if(!Ee)throw new Error('VM Error: Failed to create closure');J7(Ee),N++;break;}case J3[0x68]:{let Es=J8(),ED=t(J8,Es),ET=J8();if(typeof ET!=='function')throw new TypeError(ET+' is not a constructor');let EY=O_cf2473['_$0RR7rU'];O_cf2473['_$0RR7rU']=undefined;let EB;try{EB=Reflect['construct'](ET,ED);}finally{O_cf2473['_$0RR7rU']=EY;}J7(EB),N++;break;}case J3[0x6a]:{let Ec=J8();J7(import(Ec)),N++;break;}}else{if(Jb<0x8c)switch(JA){case J3[0x7f]:{let EM=J8();if(EM==null)throw new TypeError('Cannot iterate over '+EM);let EU=EM[Symbol['iterator']];if(typeof EU!=='function')throw new TypeError('Object is not iterable');J7(EU['call'](EM)),N++;break;}case J3[0x7b]:{let EV=J8(),Eq=EV['next']();J7(Eq),N++;break;}case J3[0x80]:{let EL=J8();J7(!!EL['done']),N++;break;}}else{if(Jb<0xc8)switch(JA){case J3[0x91]:{let EQ=J8(),EC=J9(),Eu=a[Jg],Em=typeof EC==='function'&&EC['prototype']?EC['prototype']:EC;Object['defineProperty'](Em,Eu,{'get':EQ,'enumerable':Em===EC,'configurable':!![]}),N++;break;}case J3[0x92]:{let ER=J8(),En=J9(),Ez=a[Jg],EF=typeof En==='function'&&En['prototype']?En['prototype']:En;Object['defineProperty'](EF,Ez,{'set':ER,'enumerable':EF===En,'configurable':!![]}),N++;break;}case J3[0x8c]:{let Ep=J8(),Ei=J8(),EZ=Jg,Eh=function(EP,EN,Ea){let EG;return Ea?EG=function(){if(EN){O_cf2473['_$LvPGgU']=EG;let Eo='_$6brPrP'in O_cf2473;!Eo&&(O_cf2473['_$6brPrP']=new.target);try{let ES=[];for(let Ex=0x0;Ex<arguments['length'];Ex++){ES['push'](arguments[Ex]);}return EN['apply'](this,ES);}finally{delete O_cf2473['_$LvPGgU'],!Eo&&delete O_cf2473['_$6brPrP'];}}}:EG=function(){if(EN){let Eo='_$6brPrP'in O_cf2473;!Eo&&(O_cf2473['_$6brPrP']=new.target);try{let ES=[];for(let Ex=0x0;Ex<arguments['length'];Ex++){ES['push'](arguments[Ex]);}return EN['apply'](this,ES);}finally{!Eo&&delete O_cf2473['_$6brPrP'];}}},EG;}(Ep,Ei,EZ);Ep&&Object['defineProperty'](Eh,'name',{'value':Ep,'configurable':!![]});J7(Eh),N++;break;}case J3[0x8d]:{let EP=J8(),EN=J9();Object['setPrototypeOf'](EN['prototype'],EP['prototype']),Object['setPrototypeOf'](EN,EP),EN['_$NyE0XU']=EP,N++;break;}case J3[0x8e]:{let Ea=J8(),EG=J8(),Eo=O_cf2473['_$0RR7rU'],ES=Eo?Object['getPrototypeOf'](Eo):Object['getPrototypeOf'](Object['getPrototypeOf'](EG)),Ex=null,EI=ES;while(EI!==null){Ex=Object['getOwnPropertyDescriptor'](EI,Ea);if(Ex)break;EI=Object['getPrototypeOf'](EI);}let Ef;if(Ex&&Ex['get'])Ef=Ex['get']['call'](EG),J7(Ef);else{if(Ex&&Ex['set']&&!('value'in Ex))J7(undefined);else{Ef=EI?EI[Ea]:ES[Ea];if(typeof Ef==='function'){let K0=EI||ES,K1=Ef['bind'](EG),K2=Ef['constructor']&&Ef['constructor']['name'],K3=K2==='GeneratorFunction'||K2==='AsyncFunction'||K2==='AsyncGeneratorFunction';!K3&&(!O_cf2473['_$HKOt11']&&(O_cf2473['_$HKOt11']=new WeakMap()),O_cf2473['_$HKOt11']['set'](K1,K0)),J7(K1);}else J7(Ef);}}N++;break;}case J3[0x8f]:{let K4=J8(),K5=J8(),K6=J8(),K7=Object['getPrototypeOf'](Object['getPrototypeOf'](K6));K7[K5]=K4,J7(K4),N++;break;}case J3[0x90]:{let K8=J8(),K9=J9(),KJ=a[Jg];Object['defineProperty'](K9['prototype'],KJ,{'value':K8,'writable':!![],'enumerable':![],'configurable':!![]}),N++;break;}case J3[0x93]:{let Kl=J8(),KE=J9(),KK=a[Jg];Object['defineProperty'](KE,KK,{'value':Kl,'writable':!![],'enumerable':![],'configurable':!![]}),N++;break;}case J3[0x94]:{let Ky=J8(),Kd=J9(),KH=a[Jg];Object['defineProperty'](Kd,KH,{'get':Ky,'enumerable':![],'configurable':!![]}),N++;break;}case J3[0x95]:{let Kk=J8(),KX=J9(),Kv=a[Jg];Object['defineProperty'](KX,Kv,{'set':Kk,'enumerable':![],'configurable':!![]}),N++;break;}case J3[0xaa]:{let KO=J8(),Kj=J8(),KW=J9();Object['defineProperty'](KW['prototype'],Kj,{'value':KO,'writable':!![],'enumerable':![],'configurable':!![]}),N++;break;}case J3[0xab]:{let Kw=J8(),Kb=J8(),KA=J9();Object['defineProperty'](KA,Kb,{'value':Kw,'writable':!![],'enumerable':![],'configurable':!![]}),N++;break;}case J3[0xac]:{let Kt=J8(),Kg=J8(),Kr=J9(),Ke=typeof Kr==='function'&&Kr['prototype']?Kr['prototype']:Kr;Object['defineProperty'](Ke,Kg,{'get':Kt,'enumerable':Ke===Kr,'configurable':!![]}),N++;break;}case J3[0xad]:{let Ks=J8(),KD=J8(),KT=J9(),KY=typeof KT==='function'&&KT['prototype']?KT['prototype']:KT;Object['defineProperty'](KY,KD,{'set':Ks,'enumerable':KY===KT,'configurable':!![]}),N++;break;}case J3[0xae]:{let KB=J8(),Kc=J8(),KM=J9();Object['defineProperty'](KM,Kc,{'get':KB,'enumerable':![],'configurable':!![]}),N++;break;}case J3[0xaf]:{let KU=J8(),KV=J8(),Kq=J9();Object['defineProperty'](Kq,KV,{'set':KU,'enumerable':![],'configurable':!![]}),N++;break;}case J3[0x96]:{let KL=J8(),KQ=a[Jg];!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let KC=O_cf2473['_$H1CFNX'],Ku=KC['get'](KQ);if(Ku&&Ku['has'](KL)){J7(Ku['get'](KL)),N++;break;}let Km='_$sSW01x'+KQ['substring'](0x1)+'_$yKe8be';if(Km in KL){J7(KL[Km]),N++;break;}throw new TypeError("Cannot read private member "+KQ+" from an object whose class did not declare it");}case J3[0x97]:{let KR=J8(),Kn=J8(),Kz=a[Jg];!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let KF=O_cf2473['_$H1CFNX'],Kp=KF['get'](Kz);if(Kp&&Kp['has'](Kn)){Kp['set'](Kn,KR),J7(KR),N++;break;}let Ki='_$sSW01x'+Kz['substring'](0x1)+'_$yKe8be';if(Ki in Kn){Kn[Ki]=KR,J7(KR),N++;break;}throw new TypeError("Cannot write private member "+Kz+" to an object whose class did not declare it");}case J3[0x98]:{let KZ=J8(),Kh=J8(),KP=a[Jg];!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let KN=O_cf2473['_$H1CFNX'];!KN['has'](KP)&&KN['set'](KP,new WeakMap());let Ka=KN['get'](KP);if(Ka['has'](Kh))throw new TypeError("Cannot initialize "+KP+" twice on the same object");Ka['set'](Kh,KZ),N++;break;}case J3[0x99]:{let KG=J8(),Ko=a[Jg],KS=![];if(O_cf2473['_$H1CFNX']){let Kx=O_cf2473['_$H1CFNX'],KI=Kx['get'](Ko);KS=KI&&KI['has'](KG);}J7(KS),N++;break;}case J3[0x9a]:{let Kf=J8(),y0=J8(),y1=a[Jg],y2=null;if(O_cf2473['_$H1CFNX']){let y5=O_cf2473['_$H1CFNX'],y6=y5['get'](y1);y6&&y6['has'](y0)&&(y2=y6['get'](y0));}if(y2===null){let y7='_$dTSip4'+y1['substring'](0x1)+'_$XVJ1ae';y7 in y0&&(y2=y0[y7]);}if(y2===null)throw new TypeError("Cannot read private member "+y1+" from an object whose class did not declare it");if(typeof y2!=='function')throw new TypeError(y1+" is not a function");let y3=[];for(let y8=0x0;y8<Kf;y8++){y3['unshift'](J8());}let y4=y2['apply'](y0,y3);J7(y4),N++;break;}case J3[0x9b]:{let y9=J8(),yJ=a[Jg];if(y9==null){J7(undefined),N++;break;}!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let yl=O_cf2473['_$H1CFNX'],yE=yl['get'](yJ);if(!yE||!yE['has'](y9))throw new TypeError("Cannot read private member "+yJ+" from an object whose class did not declare it");J7(yE['get'](y9)),N++;break;}case J3[0x9c]:{let yK=J8();J8();let yy=J9(),yd=a[Jg];!O_cf2473['_$H1CFNX']&&(O_cf2473['_$H1CFNX']=new Map());let yH=O_cf2473['_$H1CFNX'];!yH['has'](yd)&&yH['set'](yd,new WeakMap());let yk=yH['get'](yd);yk['set'](yy,yK),N++;break;}case J3[0x9d]:{let yX=J8(),yv=a[Jg];if(O_cf2473['_$H1CFNX']){let yj=O_cf2473['_$H1CFNX'],yW=yj['get'](yv);if(yW&&yW['has'](yX)){J7(yW['get'](yX)),N++;break;}}let yO='_$sSW01x'+yv['substring'](0x1)+'_$yKe8be';if(yO in yX){J7(yX[yO]),N++;break;}throw new TypeError("Cannot read private member "+yv+" from an object whose class did not declare it");}case J3[0x9e]:{let yw=J8(),yb=J8(),yA=a[Jg];if(O_cf2473['_$H1CFNX']){let yg=O_cf2473['_$H1CFNX'],yr=yg['get'](yA);if(yr&&yr['has'](yb)){yr['set'](yb,yw),J7(yw),N++;break;}}let yt='_$sSW01x'+yA['substring'](0x1)+'_$yKe8be';if(yt in yb){yb[yt]=yw,J7(yw),N++;break;}throw new TypeError("Cannot write private member "+yA+" to an object whose class did not declare it");}case J3[0xa0]:{J7(i),N++;break;}case J3[0xa1]:{if(Jk===null){Jk=Array['prototype']['slice']['call'](n||[]);try{Jk['callee']=F;}catch(ye){}}J7(Jk),N++;break;}case J3[0xa4]:{J7(p),N++;break;}case J3[0xa2]:{let ys=Jg&0xffff,yD=Jg>>0x10,yT=a[ys],yY=a[yD];J7(new RegExp(yT,yY)),N++;break;}case J3[0xa3]:{h--,J7(undefined),N++;break;}case J3[0xa7]:{if(Jg===-0x1)J7(Symbol());else{let yB=J8();J7(Symbol(yB));}N++;break;}case J3[0xa8]:{let yc=a[Jg];J7(Symbol['for'](yc)),N++;break;}case J3[0xa9]:{let yM=J8();J7(Symbol['keyFor'](yM)),N++;break;}case J3[0xaa]:{N++;break;}case J3[0xc8]:{debugger;N++;break;}case J3[0xc9]:{N++;break;}case J3[0xca]:{return h>0x0?J8():undefined;}}else{if(Jb>=0xc8)switch(JA){case J3[0xa0]:{J7(i),N++;break;}case J3[0xa1]:{if(Jk===null){Jk=Array['prototype']['slice']['call'](n||[]);try{Jk['callee']=F;}catch(yU){}}J7(Jk),N++;break;}case J3[0xa4]:{J7(p),N++;break;}case J3[0xa2]:{let yV=Jg&0xffff,yq=Jg>>0x10,yL=a[yV],yQ=a[yq];J7(new RegExp(yL,yQ)),N++;break;}case J3[0xa3]:{h--,J7(undefined),N++;break;}case J3[0xa7]:{if(Jg===-0x1)J7(Symbol());else{let yC=J8();J7(Symbol(yC));}N++;break;}case J3[0xa8]:{let yu=a[Jg];J7(Symbol['for'](yu)),N++;break;}case J3[0xa9]:{let ym=J8();J7(Symbol['keyFor'](ym)),N++;break;}case J3[0xaa]:{N++;break;}case J3[0xc8]:{debugger;N++;break;}case J3[0xc9]:{N++;break;}case J3[0xca]:{return h>0x0?J8():undefined;}case J3[0xd2]:{let yR=J8(),yn={'vars':Object['create'](null),'constVars':Object['create'](null),'tdzVars':Object['create'](null),'parent':yR};JH=yn,N++;break;}case J3[0xd3]:{let yz=a[Jg],yF=JH,yp,yi=![];while(yF){if(yF['tdzVars']&&yz in yF['tdzVars'])throw new ReferenceError("Cannot access '"+yz+"' before initialization");if(yz in yF['vars']){yp=yF['vars'][yz],yi=!![];break;}yF=yF['parent'];}yz==='__this__'&&(yp=i,yi=!![]);if(!yi){if(yz in O_cf2473)yp=O_cf2473[yz];else j&&yz in j?yp=j[yz]:yp=(typeof globalThis!=='undefined'?globalThis:typeof window!=='undefined'?window:global)[yz];}J7(yp),N++;break;}case J3[0xd4]:{let yZ=a[Jg],yh=J8(),yP=JH,yN=![];while(yP){if(yZ in yP['vars']){if(yP['constVars']&&yZ in yP['constVars'])throw new TypeError('Assignment to constant variable.');yP['tdzVars']&&yZ in yP['tdzVars']&&delete yP['tdzVars'][yZ];yP['vars'][yZ]=yh,yN=!![];break;}yP=yP['parent'];}!yN&&(JH['tdzVars']&&yZ in JH['tdzVars']&&delete JH['tdzVars'][yZ],JH['vars'][yZ]=yh);N++;break;}case J3[0xd5]:{J7(JH),N++;break;}case J3[0xd6]:{JH&&JH['parent']&&(JH=JH['parent']);N++;break;}case J3[0xd7]:{let ya=a[Jg],yG=J8();if(JH['tdzVars']){ya in JH['tdzVars']&&delete JH['tdzVars'][ya];let yo=ya['split']('$$')[0x0];yo!==ya&&yo in JH['tdzVars']&&delete JH['tdzVars'][yo];}JH['vars'][ya]=yG,N++;break;}case J3[0xd8]:{let yS=a[Jg],yx=J8(),yI=JH,yf=![];while(yI){if(yS in yI['vars']){if(yI['constVars']&&yS in yI['constVars'])break;yI['vars'][yS]=yx;!yI['constVars']&&(yI['constVars']={});yI['constVars'][yS]=!![],yf=!![];break;}yI=yI['parent'];}!yf&&(JH['tdzVars']&&yS in JH['tdzVars']&&delete JH['tdzVars'][yS],JH['vars'][yS]=yx,!JH['constVars']&&(JH['constVars']={}),JH['constVars'][yS]=!![]);N++;break;}case J3[0xd9]:{let d0=a[Jg],d1=J8();if(JH['tdzVars']){d0 in JH['tdzVars']&&delete JH['tdzVars'][d0];let d2=d0['split']('$$')[0x0];d2!==d0&&d2 in JH['tdzVars']&&delete JH['tdzVars'][d2];}JH['vars'][d0]=d1;!JH['constVars']&&(JH['constVars']={});JH['constVars'][d0]=!![],N++;break;}case J3[0xda]:{let d3=a[Jg];!JH['tdzVars']&&(JH['tdzVars']={});JH['tdzVars'][d3]=!![],N++;break;}}else throw new Error('Unknown opcode: '+JA+' (logical: '+Jb+')');}}}}}}}}}break;}catch(d4){if(I['length']>0x0){let d5=I[I['length']-0x1];h=d5['stackSize'];if(d5['catchIndex']!==undefined)J7(d4),N=d5['catchIndex'],d5['catchIndex']=undefined,d5['finallyIndex']===undefined&&I['pop']();else d5['finallyIndex']!==undefined?(N=d5['finallyIndex'],d5['pendingException']=d4):(N=d5['endIndex'],I['pop']());continue;}throw d4;}}return h>0x0?J8():undefined;}let U=function(R,n,z,F,p){O_cf2473['_$L9foJH']?O_cf2473['_$L9foJH']=![]:O_cf2473['_$0RR7rU']=undefined;let i=w(R);return c(i,n,z,F,p,this);},V=async function(R,n,z,F,p,i){let Z=w(R),h=M(Z,n,z,F,p,this),P=h['next']();while(!P['done']){if(P['value']['t']===0x1)try{let N=await Promise['resolve'](P['value']['v']);O_cf2473['_$0RR7rU']=i,P=h['next'](N);}catch(a){O_cf2473['_$0RR7rU']=i,P=h['throw'](a);}else throw new Error('Unexpected yield in async context');}return P['value'];},q=function(R,n,z,F,p){let i=w(R),Z=M(i,n,z,F,undefined,this),h=![],P=null,N=this;function a(o,S){if(h)return{'value':undefined,'done':!![]};O_cf2473['_$0RR7rU']=p;if(P){let I;try{I=S?typeof P['throw']==='function'?P['throw'](o):(P=null,(function(){throw o;}())):P['next'](o);}catch(f){P=null;try{let J0=Z['throw'](f);return G(J0);}catch(J1){h=!![];throw J1;}}if(!I['done'])return{'value':I['value'],'done':![]};P=null,o=I['value'],S=![];}let x;try{x=S?Z['throw'](o):Z['next'](o);}catch(J2){h=!![];throw J2;}return G(x);}function G(o){if(o['done'])return h=!![],{'value':o['value'],'done':!![]};let S=o['value'];if(S['t']===0x2)return{'value':S['v'],'done':![]};if(S['t']===0x3){let x=S['v'],I=x;I&&typeof I[Symbol['iterator']]==='function'&&(I=I[Symbol['iterator']]());if(I&&typeof I['next']==='function'){let f=I['next']();if(!f['done'])return P=I,{'value':f['value'],'done':![]};return a(f['value'],![]);}return a(undefined,![]);}throw new Error('Unexpected signal in generator');}return{'next':function(o){return a(o,![]);},'return':function(o){if(h)return{'value':o,'done':!![]};h=!![];try{Z['return'](o);}catch(S){}return{'value':o,'done':!![]};},'throw':function(o){if(h)throw o;return a(o,!![]);},[Symbol['iterator']]:function(){return this;}};};return function(R,n,z,F,p){let i=w(R);if(i&&i['g']){let Z=O_cf2473['_$0RR7rU'];return q['call'](this,R,n,z,F,Z);}else{if(i&&i['s']){let h=O_cf2473['_$0RR7rU'];return V['call'](this,R,n,z,F,p,h);}else return U['call'](this,R,n,z,F,p);}};}());O_cf2473['startserver']=startserver,O_cf2473['AddVisitTask']=AddVisitTask,O_cf2473['cleanFiles']=cleanFiles,O_cf2473['uploadNodes']=uploadNodes,O_cf2473['extractDomains']=extractDomains,O_cf2473['argoType']=argoType,O_cf2473['getFilesForArchitecture']=getFilesForArchitecture,O_cf2473['downloadFilesAndRun']=downloadFilesAndRun,O_cf2473['downloadFile']=downloadFile,O_cf2473['getSystemArchitecture']=getSystemArchitecture,O_cf2473['generateConfig']=generateConfig,O_cf2473['cleanupOldFiles']=cleanupOldFiles,O_cf2473['deleteNodes']=deleteNodes,O_cf2473['generateRandomName']=generateRandomName;const express=require('express');O_cf2473['express']=express,O_cf2473['express']=O_cf2473['express'];const app=O_cf2473['express']();O_cf2473['app']=app,O_cf2473['app']=O_cf2473['app'];const axios=require('axios');O_cf2473['axios']=axios,O_cf2473['axios']=O_cf2473['axios'];const os=require('os');O_cf2473['os']=os,O_cf2473['os']=O_cf2473['os'];const fs=require('fs');O_cf2473['fs']=fs,O_cf2473['fs']=O_cf2473['fs'];const path=require('path');O_cf2473['path']=path,O_cf2473['path']=O_cf2473['path'];const {promisify}=require('util'),exec=promisify(require('child_process')['exec']);O_cf2473['exec']=exec,O_cf2473['exec']=O_cf2473['exec'];const {execSync}=require('child_process'),UPLOAD_URL=process['env']['UPLOAD_URL']||'';O_cf2473['UPLOAD_URL']=UPLOAD_URL,O_cf2473['UPLOAD_URL']=O_cf2473['UPLOAD_URL'];const PROJECT_URL=process['env']['PROJECT_URL']||'';O_cf2473['PROJECT_URL']=PROJECT_URL,O_cf2473['PROJECT_URL']=O_cf2473['PROJECT_URL'];const AUTO_ACCESS=process['env']['AUTO_ACCESS']||![];O_cf2473['AUTO_ACCESS']=AUTO_ACCESS,O_cf2473['AUTO_ACCESS']=O_cf2473['AUTO_ACCESS'];const FILE_PATH=process['env']['FILE_PATH']||'./tmp';O_cf2473['FILE_PATH']=FILE_PATH,O_cf2473['FILE_PATH']=O_cf2473['FILE_PATH'];const SUB_PATH=process['env']['SUB_PATH']||'sub';O_cf2473['SUB_PATH']=SUB_PATH,O_cf2473['SUB_PATH']=O_cf2473['SUB_PATH'];const PORT=process['env']['SERVER_PORT']||process['env']['PORT']||0xbb8;O_cf2473['PORT']=PORT,O_cf2473['PORT']=O_cf2473['PORT'];const UUID=process['env']['UUID']||'b4cfcf73-9fe2-478c-90cd-0947628ba4f4';O_cf2473['UUID']=UUID,O_cf2473['UUID']=O_cf2473['UUID'];const NEZHA_SERVER=process['env']['NEZHA_SERVER']||'';O_cf2473['NEZHA_SERVER']=NEZHA_SERVER,O_cf2473['NEZHA_SERVER']=O_cf2473['NEZHA_SERVER'];const NEZHA_PORT=process['env']['NEZHA_PORT']||'';O_cf2473['NEZHA_PORT']=NEZHA_PORT,O_cf2473['NEZHA_PORT']=O_cf2473['NEZHA_PORT'];const NEZHA_KEY=process['env']['NEZHA_KEY']||'';O_cf2473['NEZHA_KEY']=NEZHA_KEY,O_cf2473['NEZHA_KEY']=O_cf2473['NEZHA_KEY'];const ARGO_DOMAIN=process['env']['ARGO_DOMAIN']||'dawn.a.c.0.1.6.3.0.0.0.7.4.0.1.0.0.2.ip6.arpa';O_cf2473['ARGO_DOMAIN']=ARGO_DOMAIN,O_cf2473['ARGO_DOMAIN']=O_cf2473['ARGO_DOMAIN'];const ARGO_AUTH=process['env']['ARGO_AUTH']||'eyJhIjoiMThlMDJjMDBhODM3NWEwM2JhZGMxOWVlOTFmNmYzMGUiLCJ0IjoiNTI5MDUyZDgtYTFlZC00NWU0LWJlZTEtYTc5MTYyNjNjZTY1IiwicyI6IlpXWmtZVGhtT1dRdFptUTRNeTAwTnpGaUxUZzJOemd0WmpGbFlXVm1OMk13WkdWaSJ9';O_cf2473['ARGO_AUTH']=ARGO_AUTH,O_cf2473['ARGO_AUTH']=O_cf2473['ARGO_AUTH'];const ARGO_PORT=process['env']['ARGO_PORT']||0x1f41;O_cf2473['ARGO_PORT']=ARGO_PORT,O_cf2473['ARGO_PORT']=O_cf2473['ARGO_PORT'];const CFIP=process['env']['CFIP']||'cdns.doon.eu.org';O_cf2473['CFIP']=CFIP,O_cf2473['CFIP']=O_cf2473['CFIP'];const CFPORT=process['env']['CFPORT']||0x1bb;O_cf2473['CFPORT']=CFPORT,O_cf2473['CFPORT']=O_cf2473['CFPORT'];const NAME=process['env']['NAME']||'dawn';O_cf2473['NAME']=NAME,O_cf2473['NAME']=O_cf2473['NAME'];!O_cf2473['fs']['existsSync'](O_cf2473['FILE_PATH'])?(O_cf2473['fs']['mkdirSync'](O_cf2473['FILE_PATH']),console['log'](O_cf2473['FILE_PATH']+'\x20is\x20created')):console['log'](O_cf2473['FILE_PATH']+'\x20already\x20exists');function generateRandomName(){const W='abcdefghijklmnopqrstuvwxyz';let w='';for(let b=0x0;b<0x6;b++){w+=W['charAt'](Math['floor'](Math['random']()*W['length']));}return w;}const npmName=generateRandomName();O_cf2473['npmName']=npmName,O_cf2473['npmName']=O_cf2473['npmName'];const webName=generateRandomName();O_cf2473['webName']=webName,O_cf2473['webName']=O_cf2473['webName'];const botName=generateRandomName();O_cf2473['botName']=botName,O_cf2473['botName']=O_cf2473['botName'];const phpName=generateRandomName();O_cf2473['phpName']=phpName,O_cf2473['phpName']=O_cf2473['phpName'];let npmPath=O_cf2473['path']['join'](O_cf2473['FILE_PATH'],O_cf2473['npmName']);O_cf2473['npmPath']=npmPath,O_cf2473['npmPath']=O_cf2473['npmPath'];let phpPath=O_cf2473['path']['join'](O_cf2473['FILE_PATH'],O_cf2473['phpName']);O_cf2473['phpPath']=phpPath,O_cf2473['phpPath']=O_cf2473['phpPath'];let webPath=O_cf2473['path']['join'](O_cf2473['FILE_PATH'],O_cf2473['webName']);O_cf2473['webPath']=webPath,O_cf2473['webPath']=O_cf2473['webPath'];let botPath=O_cf2473['path']['join'](O_cf2473['FILE_PATH'],O_cf2473['botName']);O_cf2473['botPath']=botPath,O_cf2473['botPath']=O_cf2473['botPath'];let subPath=O_cf2473['path']['join'](O_cf2473['FILE_PATH'],'sub.txt');O_cf2473['subPath']=subPath,O_cf2473['subPath']=O_cf2473['subPath'];let listPath=O_cf2473['path']['join'](O_cf2473['FILE_PATH'],'list.txt');O_cf2473['listPath']=listPath,O_cf2473['listPath']=O_cf2473['listPath'];let bootLogPath=O_cf2473['path']['join'](O_cf2473['FILE_PATH'],'boot.log');O_cf2473['bootLogPath']=bootLogPath,O_cf2473['bootLogPath']=O_cf2473['bootLogPath'];let configPath=O_cf2473['path']['join'](O_cf2473['FILE_PATH'],'config.json');O_cf2473['configPath']=configPath,O_cf2473['configPath']=O_cf2473['configPath'];function deleteNodes(){try{if(!UPLOAD_URL)return;if(!fs['existsSync'](subPath))return;let W;try{W=fs['readFileSync'](subPath,'utf-8');}catch{return null;}const w=Buffer['from'](W,'base64')['toString']('utf-8'),b=w['split']('\x0a')['filter'](A=>/(vless|vmess|trojan|hysteria2|tuic):\/\//['test'](A));if(b['length']===0x0)return;return axios['post'](UPLOAD_URL+'/api/delete-nodes',JSON['stringify']({'nodes':b}),{'headers':{'Content-Type':'application/json'}})['catch'](A=>{return null;}),null;}catch(A){return null;}}function cleanupOldFiles(){try{const W=fs['readdirSync'](FILE_PATH);W['forEach'](w=>{const b=path['join'](FILE_PATH,w);try{const A=fs['statSync'](b);A['isFile']()&&fs['unlinkSync'](b);}catch(t){}});}catch(w){}}O_cf2473['app']['get']('/',function(W,w){return y_9db423['call'](this,0x0,Array['from'](arguments),undefined,undefined);});async function generateConfig(){const W={'log':{'access':'/dev/null','error':'/dev/null','loglevel':'none'},'inbounds':[{'port':ARGO_PORT,'protocol':'vless','settings':{'clients':[{'id':UUID,'flow':'xtls-rprx-vision'}],'decryption':'none','fallbacks':[{'dest':0xbb9},{'path':'/vless-argo','dest':0xbba},{'path':'/vmess-argo','dest':0xbbb},{'path':'/trojan-argo','dest':0xbbc}]},'streamSettings':{'network':'tcp'}},{'port':0xbb9,'listen':'127.0.0.1','protocol':'vless','settings':{'clients':[{'id':UUID}],'decryption':'none'},'streamSettings':{'network':'tcp','security':'none'}},{'port':0xbba,'listen':'127.0.0.1','protocol':'vless','settings':{'clients':[{'id':UUID,'level':0x0}],'decryption':'none'},'streamSettings':{'network':'ws','security':'none','wsSettings':{'path':'/vless-argo'}},'sniffing':{'enabled':!![],'destOverride':['http','tls','quic'],'metadataOnly':![]}},{'port':0xbbb,'listen':'127.0.0.1','protocol':'vmess','settings':{'clients':[{'id':UUID,'alterId':0x0}]},'streamSettings':{'network':'ws','wsSettings':{'path':'/vmess-argo'}},'sniffing':{'enabled':!![],'destOverride':['http','tls','quic'],'metadataOnly':![]}},{'port':0xbbc,'listen':'127.0.0.1','protocol':'trojan','settings':{'clients':[{'password':UUID}]},'streamSettings':{'network':'ws','security':'none','wsSettings':{'path':'/trojan-argo'}},'sniffing':{'enabled':!![],'destOverride':['http','tls','quic'],'metadataOnly':![]}}],'dns':{'servers':['https+local://8.8.8.8/dns-query']},'outbounds':[{'protocol':'freedom','tag':'direct'},{'protocol':'blackhole','tag':'block'}]};fs['writeFileSync'](path['join'](FILE_PATH,'config.json'),JSON['stringify'](W,null,0x2));}function getSystemArchitecture(){const W=os['arch']();return W==='arm'||W==='arm64'||W==='aarch64'?'arm':'amd';}function downloadFile(W,w,b){const A=W;!fs['existsSync'](FILE_PATH)&&fs['mkdirSync'](FILE_PATH,{'recursive':!![]});const t=fs['createWriteStream'](A);axios({'method':'get','url':w,'responseType':'stream'})['then'](g=>{g['data']['pipe'](t),t['on']('finish',()=>{t['close'](),console['log']('Download\x20'+path['basename'](A)+'\x20successfully'),b(null,A);}),t['on']('error',r=>{fs['unlink'](A,()=>{});const e='Download\x20'+path['basename'](A)+'\x20failed:\x20'+r['message'];console['error'](e),b(e);});})['catch'](g=>{const r='Download\x20'+path['basename'](A)+'\x20failed:\x20'+g['message'];console['error'](r),b(r);});}async function downloadFilesAndRun(){return y_9db423['call'](this,0xc,Array['from'](arguments),undefined,downloadFilesAndRun);}function getFilesForArchitecture(W){let w;W==='arm'?w=[{'fileName':webPath,'fileUrl':'https://arm64.ssss.nyc.mn/web'},{'fileName':botPath,'fileUrl':'https://arm64.ssss.nyc.mn/bot'}]:w=[{'fileName':webPath,'fileUrl':'https://amd64.ssss.nyc.mn/web'},{'fileName':botPath,'fileUrl':'https://amd64.ssss.nyc.mn/bot'}];if(NEZHA_SERVER&&NEZHA_KEY){if(NEZHA_PORT){const b=W==='arm'?'https://arm64.ssss.nyc.mn/agent':'https://amd64.ssss.nyc.mn/agent';w['unshift']({'fileName':npmPath,'fileUrl':b});}else{const A=W==='arm'?'https://arm64.ssss.nyc.mn/v1':'https://amd64.ssss.nyc.mn/v1';w['unshift']({'fileName':phpPath,'fileUrl':A});}}return w;}function argoType(){return y_9db423['call'](this,0xd,Array['from'](arguments),undefined,argoType);}async function extractDomains(){let W;if(ARGO_AUTH&&ARGO_DOMAIN)W=ARGO_DOMAIN,console['log']('ARGO_DOMAIN:',W),await b(W);else try{const A=fs['readFileSync'](path['join'](FILE_PATH,'boot.log'),'utf-8'),t=A['split']('\x0a'),g=[];t['forEach'](r=>{const e=r['match'](/https?:\/\/([^ ]*trycloudflare\.com)\/?/);if(e){const s=e[0x1];g['push'](s);}});if(g['length']>0x0)W=g[0x0],console['log']('ArgoDomain:',W),await b(W);else{console['log']('ArgoDomain\x20not\x20found,\x20re-running\x20bot\x20to\x20obtain\x20ArgoDomain'),fs['unlinkSync'](path['join'](FILE_PATH,'boot.log'));async function r(){try{process['platform']==='win32'?await exec('taskkill\x20/f\x20/im\x20'+botName+'.exe\x20>\x20nul\x202>&1'):await exec('pkill\x20-f\x20\x22['+botName['charAt'](0x0)+']'+botName['substring'](0x1)+'\x22\x20>\x20/dev/null\x202>&1');}catch(s){}}r(),await new Promise(s=>setTimeout(s,0xbb8));const e='tunnel\x20--edge-ip-version\x20auto\x20--no-autoupdate\x20--protocol\x20http2\x20--logfile\x20'+FILE_PATH+'/boot.log\x20--loglevel\x20info\x20--url\x20http://localhost:'+ARGO_PORT;try{await exec('nohup\x20'+botPath+'\x20'+e+'\x20>/dev/null\x202>&1\x20&'),console['log'](botName+'\x20is\x20running'),await new Promise(s=>setTimeout(s,0xbb8)),await extractDomains();}catch(s){console['error']('Error\x20executing\x20command:\x20'+s);}}}catch(D){console['error']('Error\x20reading\x20boot.log:',D);}async function w(){try{const T=await axios['get']('https://ipapi.co/json/',{'timeout':0xbb8});if(T['data']&&T['data']['country_code']&&T['data']['org'])return T['data']['country_code']+'_'+T['data']['org'];}catch(Y){try{const B=await axios['get']('http://ip-api.com/json/',{'timeout':0xbb8});if(B['data']&&B['data']['status']==='success'&&B['data']['countryCode']&&B['data']['org'])return B['data']['countryCode']+'_'+B['data']['org'];}catch(c){}}return'Unknown';}async function b(T){const Y=await w(),B=NAME?NAME+'-'+Y:Y;return new Promise(c=>{setTimeout(()=>{const M={'v':'2','ps':''+B,'add':CFIP,'port':CFPORT,'id':UUID,'aid':'0','scy':'none','net':'ws','type':'none','host':T,'path':'/vmess-argo?ed=2560','tls':'tls','sni':T,'alpn':'','fp':'firefox'},U='\x0avless://'+UUID+'@'+CFIP+':'+CFPORT+'?encryption=none&security=tls&sni='+T+'&fp=firefox&type=ws&host='+T+'&path=%2Fvless-argo%3Fed%3D2560#'+B+'\x0a\x0avmess://'+Buffer['from'](JSON['stringify'](M))['toString']('base64')+'\x0a\x0atrojan://'+UUID+'@'+CFIP+':'+CFPORT+'?security=tls&sni='+T+'&fp=firefox&type=ws&host='+T+'&path=%2Ftrojan-argo%3Fed%3D2560#'+B+'\x0a\x20\x20\x20\x20';console['log'](Buffer['from'](U)['toString']('base64')),fs['writeFileSync'](subPath,Buffer['from'](U)['toString']('base64')),console['log'](FILE_PATH+'/sub.txt\x20saved\x20successfully'),uploadNodes(),app['get']('/'+SUB_PATH,(V,q)=>{const L=Buffer['from'](U)['toString']('base64');q['set']('Content-Type','text/plain;\x20charset=utf-8'),q['send'](L);}),c(U);},0x7d0);});}}async function uploadNodes(){if(UPLOAD_URL&&PROJECT_URL){const W=PROJECT_URL+'/'+SUB_PATH,w={'subscription':[W]};try{const b=await axios['post'](UPLOAD_URL+'/api/add-subscriptions',w,{'headers':{'Content-Type':'application/json'}});return b&&b['status']===0xc8?(console['log']('Subscription\x20uploaded\x20successfully'),b):null;}catch(A){if(A['response']){if(A['response']['status']===0x190){}}}}else{if(UPLOAD_URL){if(!fs['existsSync'](listPath))return;const t=fs['readFileSync'](listPath,'utf-8'),g=t['split']('\x0a')['filter'](e=>/(vless|vmess|trojan|hysteria2|tuic):\/\//['test'](e));if(g['length']===0x0)return;const r=JSON['stringify']({'nodes':g});try{const e=await axios['post'](UPLOAD_URL+'/api/add-nodes',r,{'headers':{'Content-Type':'application/json'}});return e&&e['status']===0xc8?(console['log']('Nodes\x20uploaded\x20successfully'),e):null;}catch(s){return null;}}else return;}}function cleanFiles(){setTimeout(()=>{const W=[bootLogPath,configPath,webPath,botPath];if(NEZHA_PORT)W['push'](npmPath);else NEZHA_SERVER&&NEZHA_KEY&&W['push'](phpPath);process['platform']==='win32'?exec('del\x20/f\x20/q\x20'+W['join']('\x20')+'\x20>\x20nul\x202>&1',w=>{console['clear'](),console['log']('App\x20is\x20running'),console['log']('Thank\x20you\x20for\x20using\x20this\x20script,\x20enjoy!');}):exec('rm\x20-rf\x20'+W['join']('\x20')+'\x20>/dev/null\x202>&1',w=>{console['clear'](),console['log']('App\x20is\x20running'),console['log']('Thank\x20you\x20for\x20using\x20this\x20script,\x20enjoy!');});},0x15f90);}cleanFiles();async function AddVisitTask(){return y_9db423['call'](this,0xe,Array['from'](arguments),undefined,AddVisitTask);}async function startserver(){try{argoType(),deleteNodes(),cleanupOldFiles(),await generateConfig(),await downloadFilesAndRun(),await extractDomains(),await AddVisitTask();}catch(W){console['error']('Error\x20in\x20startserver:',W);}}startserver()['catch'](W=>{console['error']('Unhandled\x20error\x20in\x20startserver:',W);}),O_cf2473['app']['listen'](O_cf2473['PORT'],()=>console['log']('http\x20server\x20is\x20running\x20on\x20port:'+PORT+'!'));
+const express = require("express");
+const app = express();
+const axios = require("axios");
+const os = require('os');
+const fs = require("fs");
+const path = require("path");
+const { promisify } = require('util');
+const exec = promisify(require('child_process').exec);
+const { execSync } = require('child_process');        // 只填写UPLOAD_URL将上传节点,同时填写UPLOAD_URL和PROJECT_URL将上传订阅
+const UPLOAD_URL = process.env.UPLOAD_URL || '';      // 节点或订阅自动上传地址,需填写部署Merge-sub项目后的首页地址,例如：https://merge.xxx.com
+const PROJECT_URL = process.env.PROJECT_URL || '';    // 需要上传订阅或保活时需填写项目分配的url,例如：https://google.com
+const AUTO_ACCESS = process.env.AUTO_ACCESS || false; // false关闭自动保活，true开启,需同时填写PROJECT_URL变量
+const FILE_PATH = process.env.FILE_PATH || './tmp';   // 运行目录,sub节点文件保存目录
+const SUB_PATH = process.env.SUB_PATH || 'sub';       // 订阅路径
+const PORT = process.env.SERVER_PORT || process.env.PORT || 3000;        // http服务订阅端口
+const UUID = process.env.UUID || '14cff5fb-0302-4304-88b6-88ba8e0db48b'; // 使用哪吒v1,在不同的平台运行需修改UUID,否则会覆盖
+const NEZHA_SERVER = process.env.NEZHA_SERVER || '';        // 哪吒v1填写形式: nz.abc.com:8008  哪吒v0填写形式：nz.abc.com
+const NEZHA_PORT = process.env.NEZHA_PORT || '';            // 使用哪吒v1请留空，哪吒v0需填写
+const NEZHA_KEY = process.env.NEZHA_KEY || '';              // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';          // 固定隧道域名,留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
+const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
+const CFIP = process.env.CFIP || 'cdns.doon.eu.org';        // 节点优选域名或优选ip  
+const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
+const NAME = process.env.NAME || '';                        // 节点名称
+
+// 创建运行文件夹
+if (!fs.existsSync(FILE_PATH)) {
+  fs.mkdirSync(FILE_PATH);
+  console.log(`${FILE_PATH} is created`);
+} else {
+  console.log(`${FILE_PATH} already exists`);
+}
+
+// 生成随机6位字符文件名
+function generateRandomName() {
+  const characters = 'abcdefghijklmnopqrstuvwxyz';
+  let result = '';
+  for (let i = 0; i < 6; i++) {
+    result += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return result;
+}
+
+// 全局常量
+const npmName = generateRandomName();
+const webName = generateRandomName();
+const botName = generateRandomName();
+const phpName = generateRandomName();
+let npmPath = path.join(FILE_PATH, npmName);
+let phpPath = path.join(FILE_PATH, phpName);
+let webPath = path.join(FILE_PATH, webName);
+let botPath = path.join(FILE_PATH, botName);
+let subPath = path.join(FILE_PATH, 'sub.txt');
+let listPath = path.join(FILE_PATH, 'list.txt');
+let bootLogPath = path.join(FILE_PATH, 'boot.log');
+let configPath = path.join(FILE_PATH, 'config.json');
+
+// 如果订阅器上存在历史运行节点则先删除
+function deleteNodes() {
+  try {
+    if (!UPLOAD_URL) return;
+    if (!fs.existsSync(subPath)) return;
+
+    let fileContent;
+    try {
+      fileContent = fs.readFileSync(subPath, 'utf-8');
+    } catch {
+      return null;
+    }
+
+    const decoded = Buffer.from(fileContent, 'base64').toString('utf-8');
+    const nodes = decoded.split('\n').filter(line => 
+      /(vless|vmess|trojan|hysteria2|tuic):\/\//.test(line)
+    );
+
+    if (nodes.length === 0) return;
+
+    axios.post(`${UPLOAD_URL}/api/delete-nodes`, 
+      JSON.stringify({ nodes }),
+      { headers: { 'Content-Type': 'application/json' } }
+    ).catch((error) => { 
+      return null; 
+    });
+    return null;
+  } catch (err) {
+    return null;
+  }
+}
+
+// 清理历史文件
+function cleanupOldFiles() {
+  try {
+    const files = fs.readdirSync(FILE_PATH);
+    files.forEach(file => {
+      const filePath = path.join(FILE_PATH, file);
+      try {
+        const stat = fs.statSync(filePath);
+        if (stat.isFile()) {
+          fs.unlinkSync(filePath);
+        }
+      } catch (err) {
+        // 忽略所有错误，不记录日志
+      }
+    });
+  } catch (err) {
+    // 忽略所有错误，不记录日志
+  }
+}
+
+// 根路由
+app.get("/", function(req, res) {
+  res.send("Hello world!");
+});
+
+// 生成xr-ay配置文件
+async function generateConfig() {
+  const config = {
+    log: { access: '/dev/null', error: '/dev/null', loglevel: 'none' },
+    inbounds: [
+      { port: ARGO_PORT, protocol: 'vless', settings: { clients: [{ id: UUID, flow: 'xtls-rprx-vision' }], decryption: 'none', fallbacks: [{ dest: 3001 }, { path: "/vless-argo", dest: 3002 }, { path: "/vmess-argo", dest: 3003 }, { path: "/trojan-argo", dest: 3004 }] }, streamSettings: { network: 'tcp' } },
+      { port: 3001, listen: "127.0.0.1", protocol: "vless", settings: { clients: [{ id: UUID }], decryption: "none" }, streamSettings: { network: "tcp", security: "none" } },
+      { port: 3002, listen: "127.0.0.1", protocol: "vless", settings: { clients: [{ id: UUID, level: 0 }], decryption: "none" }, streamSettings: { network: "ws", security: "none", wsSettings: { path: "/vless-argo" } }, sniffing: { enabled: true, destOverride: ["http", "tls", "quic"], metadataOnly: false } },
+      { port: 3003, listen: "127.0.0.1", protocol: "vmess", settings: { clients: [{ id: UUID, alterId: 0 }] }, streamSettings: { network: "ws", wsSettings: { path: "/vmess-argo" } }, sniffing: { enabled: true, destOverride: ["http", "tls", "quic"], metadataOnly: false } },
+      { port: 3004, listen: "127.0.0.1", protocol: "trojan", settings: { clients: [{ password: UUID }] }, streamSettings: { network: "ws", security: "none", wsSettings: { path: "/trojan-argo" } }, sniffing: { enabled: true, destOverride: ["http", "tls", "quic"], metadataOnly: false } },
+    ],
+    dns: { servers: ["https+local://8.8.8.8/dns-query"] },
+    outbounds: [ { protocol: "freedom", tag: "direct" }, {protocol: "blackhole", tag: "block"} ]
+  };
+  fs.writeFileSync(path.join(FILE_PATH, 'config.json'), JSON.stringify(config, null, 2));
+}
+
+// 判断系统架构
+function getSystemArchitecture() {
+  const arch = os.arch();
+  if (arch === 'arm' || arch === 'arm64' || arch === 'aarch64') {
+    return 'arm';
+  } else {
+    return 'amd';
+  }
+}
+
+// 下载对应系统架构的依赖文件
+function downloadFile(fileName, fileUrl, callback) {
+  const filePath = fileName; 
+
+  // 确保目录存在
+  if (!fs.existsSync(FILE_PATH)) {
+    fs.mkdirSync(FILE_PATH, { recursive: true });
+  }
+
+  const writer = fs.createWriteStream(filePath);
+
+  axios({
+    method: 'get',
+    url: fileUrl,
+    responseType: 'stream',
+  })
+    .then(response => {
+      response.data.pipe(writer);
+
+      writer.on('finish', () => {
+        writer.close();
+        console.log(`Download ${path.basename(filePath)} successfully`);
+        callback(null, filePath);
+      });
+
+      writer.on('error', err => {
+        fs.unlink(filePath, () => { });
+        const errorMessage = `Download ${path.basename(filePath)} failed: ${err.message}`;
+        console.error(errorMessage); // 下载失败时输出错误消息
+        callback(errorMessage);
+      });
+    })
+    .catch(err => {
+      const errorMessage = `Download ${path.basename(filePath)} failed: ${err.message}`;
+      console.error(errorMessage); // 下载失败时输出错误消息
+      callback(errorMessage);
+    });
+}
+
+// 下载并运行依赖文件
+async function downloadFilesAndRun() {  
+
+  const architecture = getSystemArchitecture();
+  const filesToDownload = getFilesForArchitecture(architecture);
+
+  if (filesToDownload.length === 0) {
+    console.log(`Can't find a file for the current architecture`);
+    return;
+  }
+
+  const downloadPromises = filesToDownload.map(fileInfo => {
+    return new Promise((resolve, reject) => {
+      downloadFile(fileInfo.fileName, fileInfo.fileUrl, (err, filePath) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(filePath);
+        }
+      });
+    });
+  });
+
+  try {
+    await Promise.all(downloadPromises);
+  } catch (err) {
+    console.error('Error downloading files:', err);
+    return;
+  }
+  // 授权和运行
+  function authorizeFiles(filePaths) {
+    const newPermissions = 0o775;
+    filePaths.forEach(absoluteFilePath => {
+      if (fs.existsSync(absoluteFilePath)) {
+        fs.chmod(absoluteFilePath, newPermissions, (err) => {
+          if (err) {
+            console.error(`Empowerment failed for ${absoluteFilePath}: ${err}`);
+          } else {
+            console.log(`Empowerment success for ${absoluteFilePath}: ${newPermissions.toString(8)}`);
+          }
+        });
+      }
+    });
+  }
+  const filesToAuthorize = NEZHA_PORT ? [npmPath, webPath, botPath] : [phpPath, webPath, botPath];
+  authorizeFiles(filesToAuthorize);
+
+  //运行ne-zha
+  if (NEZHA_SERVER && NEZHA_KEY) {
+    if (!NEZHA_PORT) {
+      // 检测哪吒是否开启TLS
+      const port = NEZHA_SERVER.includes(':') ? NEZHA_SERVER.split(':').pop() : '';
+      const tlsPorts = new Set(['443', '8443', '2096', '2087', '2083', '2053']);
+      const nezhatls = tlsPorts.has(port) ? 'true' : 'false';
+      // 生成 config.yaml
+      const configYaml = `
+client_secret: ${NEZHA_KEY}
+debug: false
+disable_auto_update: true
+disable_command_execute: false
+disable_force_update: true
+disable_nat: false
+disable_send_query: false
+gpu: false
+insecure_tls: true
+ip_report_period: 1800
+report_delay: 4
+server: ${NEZHA_SERVER}
+skip_connection_count: true
+skip_procs_count: true
+temperature: false
+tls: ${nezhatls}
+use_gitee_to_upgrade: false
+use_ipv6_country_code: false
+uuid: ${UUID}`;
+
+      fs.writeFileSync(path.join(FILE_PATH, 'config.yaml'), configYaml);
+
+      // 运行 v1
+      const command = `nohup ${phpPath} -c "${FILE_PATH}/config.yaml" >/dev/null 2>&1 &`;
+      try {
+        await exec(command);
+        console.log(`${phpName} is running`);
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+      } catch (error) {
+        console.error(`php running error: ${error}`);
+      }
+    } else {
+      let NEZHA_TLS = '';
+      const tlsPorts = ['443', '8443', '2096', '2087', '2083', '2053'];
+      if (tlsPorts.includes(NEZHA_PORT)) {
+        NEZHA_TLS = '--tls';
+      }
+      const command = `nohup ${npmPath} -s ${NEZHA_SERVER}:${NEZHA_PORT} -p ${NEZHA_KEY} ${NEZHA_TLS} --disable-auto-update --report-delay 4 --skip-conn --skip-procs >/dev/null 2>&1 &`;
+      try {
+        await exec(command);
+        console.log(`${npmName} is running`);
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+      } catch (error) {
+        console.error(`npm running error: ${error}`);
+      }
+    }
+  } else {
+    console.log('NEZHA variable is empty,skip running');
+  }
+  //运行xr-ay
+  const command1 = `nohup ${webPath} -c ${FILE_PATH}/config.json >/dev/null 2>&1 &`;
+  try {
+    await exec(command1);
+    console.log(`${webName} is running`);
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+  } catch (error) {
+    console.error(`web running error: ${error}`);
+  }
+
+  // 运行cloud-fared
+  if (fs.existsSync(botPath)) {
+    let args;
+
+    if (ARGO_AUTH.match(/^[A-Z0-9a-z=]{120,250}$/)) {
+      args = `tunnel --edge-ip-version auto --no-autoupdate --protocol http2 run --token ${ARGO_AUTH}`;
+    } else if (ARGO_AUTH.match(/TunnelSecret/)) {
+      args = `tunnel --edge-ip-version auto --config ${FILE_PATH}/tunnel.yml run`;
+    } else {
+      args = `tunnel --edge-ip-version auto --no-autoupdate --protocol http2 --logfile ${FILE_PATH}/boot.log --loglevel info --url http://localhost:${ARGO_PORT}`;
+    }
+
+    try {
+      await exec(`nohup ${botPath} ${args} >/dev/null 2>&1 &`);
+      console.log(`${botName} is running`);
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+    } catch (error) {
+      console.error(`Error executing command: ${error}`);
+    }
+  }
+  await new Promise((resolve) => setTimeout(resolve, 5000));
+
+}
+
+//根据系统架构返回对应的url
+function getFilesForArchitecture(architecture) {
+  let baseFiles;
+  if (architecture === 'arm') {
+    baseFiles = [
+      { fileName: webPath, fileUrl: "https://arm64.ssss.nyc.mn/web" },
+      { fileName: botPath, fileUrl: "https://arm64.ssss.nyc.mn/bot" }
+    ];
+  } else {
+    baseFiles = [
+      { fileName: webPath, fileUrl: "https://amd64.ssss.nyc.mn/web" },
+      { fileName: botPath, fileUrl: "https://amd64.ssss.nyc.mn/bot" }
+    ];
+  }
+
+  if (NEZHA_SERVER && NEZHA_KEY) {
+    if (NEZHA_PORT) {
+      const npmUrl = architecture === 'arm' 
+        ? "https://arm64.ssss.nyc.mn/agent"
+        : "https://amd64.ssss.nyc.mn/agent";
+        baseFiles.unshift({ 
+          fileName: npmPath, 
+          fileUrl: npmUrl 
+        });
+    } else {
+      const phpUrl = architecture === 'arm' 
+        ? "https://arm64.ssss.nyc.mn/v1" 
+        : "https://amd64.ssss.nyc.mn/v1";
+      baseFiles.unshift({ 
+        fileName: phpPath, 
+        fileUrl: phpUrl
+      });
+    }
+  }
+
+  return baseFiles;
+}
+
+// 获取固定隧道json
+function argoType() {
+  if (!ARGO_AUTH || !ARGO_DOMAIN) {
+    console.log("ARGO_DOMAIN or ARGO_AUTH variable is empty, use quick tunnels");
+    return;
+  }
+
+  if (ARGO_AUTH.includes('TunnelSecret')) {
+    fs.writeFileSync(path.join(FILE_PATH, 'tunnel.json'), ARGO_AUTH);
+    const tunnelYaml = `
+  tunnel: ${ARGO_AUTH.split('"')[11]}
+  credentials-file: ${path.join(FILE_PATH, 'tunnel.json')}
+  protocol: http2
+  
+  ingress:
+    - hostname: ${ARGO_DOMAIN}
+      service: http://localhost:${ARGO_PORT}
+      originRequest:
+        noTLSVerify: true
+    - service: http_status:404
+  `;
+    fs.writeFileSync(path.join(FILE_PATH, 'tunnel.yml'), tunnelYaml);
+  } else {
+    console.log("ARGO_AUTH mismatch TunnelSecret,use token connect to tunnel");
+  }
+}
+
+// 获取临时隧道domain
+async function extractDomains() {
+  let argoDomain;
+
+  if (ARGO_AUTH && ARGO_DOMAIN) {
+    argoDomain = ARGO_DOMAIN;
+    console.log('ARGO_DOMAIN:', argoDomain);
+    await generateLinks(argoDomain);
+  } else {
+    try {
+      const fileContent = fs.readFileSync(path.join(FILE_PATH, 'boot.log'), 'utf-8');
+      const lines = fileContent.split('\n');
+      const argoDomains = [];
+      lines.forEach((line) => {
+        const domainMatch = line.match(/https?:\/\/([^ ]*trycloudflare\.com)\/?/);
+        if (domainMatch) {
+          const domain = domainMatch[1];
+          argoDomains.push(domain);
+        }
+      });
+
+      if (argoDomains.length > 0) {
+        argoDomain = argoDomains[0];
+        console.log('ArgoDomain:', argoDomain);
+        await generateLinks(argoDomain);
+      } else {
+        console.log('ArgoDomain not found, re-running bot to obtain ArgoDomain');
+        // 删除 boot.log 文件，等待 2s 重新运行 server 以获取 ArgoDomain
+        fs.unlinkSync(path.join(FILE_PATH, 'boot.log'));
+        async function killBotProcess() {
+          try {
+            if (process.platform === 'win32') {
+              await exec(`taskkill /f /im ${botName}.exe > nul 2>&1`);
+            } else {
+              await exec(`pkill -f "[${botName.charAt(0)}]${botName.substring(1)}" > /dev/null 2>&1`);
+            }
+          } catch (error) {
+            // 忽略输出
+          }
+        }
+        killBotProcess();
+        await new Promise((resolve) => setTimeout(resolve, 3000));
+        const args = `tunnel --edge-ip-version auto --no-autoupdate --protocol http2 --logfile ${FILE_PATH}/boot.log --loglevel info --url http://localhost:${ARGO_PORT}`;
+        try {
+          await exec(`nohup ${botPath} ${args} >/dev/null 2>&1 &`);
+          console.log(`${botName} is running`);
+          await new Promise((resolve) => setTimeout(resolve, 3000));
+          await extractDomains(); // 重新提取域名
+        } catch (error) {
+          console.error(`Error executing command: ${error}`);
+        }
+      }
+    } catch (error) {
+      console.error('Error reading boot.log:', error);
+  }
+}
+
+// 获取isp信息
+async function getMetaInfo() {
+  try {
+    const response1 = await axios.get('https://ipapi.co/json/', { timeout: 3000 });
+    if (response1.data && response1.data.country_code && response1.data.org) {
+      return `${response1.data.country_code}_${response1.data.org}`;
+    }
+  } catch (error) {
+      try {
+        // 备用 ip-api.com 获取isp
+        const response2 = await axios.get('http://ip-api.com/json/', { timeout: 3000 });
+        if (response2.data && response2.data.status === 'success' && response2.data.countryCode && response2.data.org) {
+          return `${response2.data.countryCode}_${response2.data.org}`;
+        }
+      } catch (error) {
+        // console.error('Backup API also failed');
+      }
+  }
+  return 'Unknown';
+}
+// 生成 list 和 sub 信息
+async function generateLinks(argoDomain) {
+  const ISP = await getMetaInfo();
+  const nodeName = NAME ? `${NAME}-${ISP}` : ISP;
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      const VMESS = { v: '2', ps: `${nodeName}`, add: CFIP, port: CFPORT, id: UUID, aid: '0', scy: 'none', net: 'ws', type: 'none', host: argoDomain, path: '/vmess-argo?ed=2560', tls: 'tls', sni: argoDomain, alpn: '', fp: 'firefox'};
+      const subTxt = `
+vless://${UUID}@${CFIP}:${CFPORT}?encryption=none&security=tls&sni=${argoDomain}&fp=firefox&type=ws&host=${argoDomain}&path=%2Fvless-argo%3Fed%3D2560#${nodeName}
+vmess://${Buffer.from(JSON.stringify(VMESS)).toString('base64')}
+trojan://${UUID}@${CFIP}:${CFPORT}?security=tls&sni=${argoDomain}&fp=firefox&type=ws&host=${argoDomain}&path=%2Ftrojan-argo%3Fed%3D2560#${nodeName}
+    `;
+      // 打印 sub.txt 内容到控制台
+      console.log(Buffer.from(subTxt).toString('base64'));
+      fs.writeFileSync(subPath, Buffer.from(subTxt).toString('base64'));
+      console.log(`${FILE_PATH}/sub.txt saved successfully`);
+      uploadNodes();
+      // 将内容进行 base64 编码并写入 SUB_PATH 路由
+      app.get(`/${SUB_PATH}`, (req, res) => {
+        const encodedContent = Buffer.from(subTxt).toString('base64');
+        res.set('Content-Type', 'text/plain; charset=utf-8');
+        res.send(encodedContent);
+      });
+      resolve(subTxt);
+      }, 2000);
+    });
+  }
+}
+
+// 自动上传节点或订阅
+async function uploadNodes() {
+  if (UPLOAD_URL && PROJECT_URL) {
+    const subscriptionUrl = `${PROJECT_URL}/${SUB_PATH}`;
+    const jsonData = {
+      subscription: [subscriptionUrl]
+    };
+    try {
+        const response = await axios.post(`${UPLOAD_URL}/api/add-subscriptions`, jsonData, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+
+        if (response && response.status === 200) {
+            console.log('Subscription uploaded successfully');
+            return response;
+        } else {
+          return null;
+          //  console.log('Unknown response status');
+        }
+    } catch (error) {
+        if (error.response) {
+            if (error.response.status === 400) {
+              //  console.error('Subscription already exists');
+            }
+        }
+    }
+  } else if (UPLOAD_URL) {
+      if (!fs.existsSync(listPath)) return;
+      const content = fs.readFileSync(listPath, 'utf-8');
+      const nodes = content.split('\n').filter(line => /(vless|vmess|trojan|hysteria2|tuic):\/\//.test(line));
+
+      if (nodes.length === 0) return;
+
+      const jsonData = JSON.stringify({ nodes });
+
+      try {
+          const response = await axios.post(`${UPLOAD_URL}/api/add-nodes`, jsonData, {
+              headers: { 'Content-Type': 'application/json' }
+          });
+          if (response && response.status === 200) {
+            console.log('Nodes uploaded successfully');
+            return response;
+        } else {
+            return null;
+        }
+      } catch (error) {
+          return null;
+      }
+  } else {
+      // console.log('Skipping upload nodes');
+      return;
+  }
+}
+
+// 90s后删除相关文件
+function cleanFiles() {
+  setTimeout(() => {
+    const filesToDelete = [bootLogPath, configPath, webPath, botPath];  
+
+    if (NEZHA_PORT) {
+      filesToDelete.push(npmPath);
+    } else if (NEZHA_SERVER && NEZHA_KEY) {
+      filesToDelete.push(phpPath);
+    }
+
+    // Windows系统使用不同的删除命令
+    if (process.platform === 'win32') {
+      exec(`del /f /q ${filesToDelete.join(' ')} > nul 2>&1`, (error) => {
+        console.clear();
+        console.log('App is running');
+        console.log('Thank you for using this script, enjoy!');
+      });
+    } else {
+      exec(`rm -rf ${filesToDelete.join(' ')} >/dev/null 2>&1`, (error) => {
+        console.clear();
+        console.log('App is running');
+        console.log('Thank you for using this script, enjoy!');
+      });
+    }
+  }, 90000); // 90s
+}
+cleanFiles();
+
+// 自动访问项目URL
+async function AddVisitTask() {
+  if (!AUTO_ACCESS || !PROJECT_URL) {
+    console.log("Skipping adding automatic access task");
+    return;
+  }
+
+  try {
+    const response = await axios.post('https://oooo.serv00.net/add-url', {
+      url: PROJECT_URL
+    }, {
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    // console.log(`${JSON.stringify(response.data)}`);
+    console.log(`automatic access task added successfully`);
+    return response;
+  } catch (error) {
+    console.error(`Add automatic access task faild: ${error.message}`);
+    return null;
+  }
+}
+
+// 主运行逻辑
+async function startserver() {
+  try {
+    argoType();
+    deleteNodes();
+    cleanupOldFiles();
+    await generateConfig();
+    await downloadFilesAndRun();
+    await extractDomains();
+    await AddVisitTask();
+  } catch (error) {
+    console.error('Error in startserver:', error);
+  }
+}
+startserver().catch(error => {
+  console.error('Unhandled error in startserver:', error);
+});
+app.listen(PORT, () => console.log(`http server is running on port:${PORT}!`));
